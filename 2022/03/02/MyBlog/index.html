@@ -3,12 +3,14 @@
 <head>
   <meta charset="utf-8">
   
-  <title>MyBlog | Hexo</title>
+  <title>MyBlog | X-Site</title>
 
   
-  <meta name="author" content="John Doe">
+  <meta name="author" content="Gx">
   
 
+  
+  <meta name="description" content="description">
   
 
   
@@ -22,14 +24,14 @@
 
   <meta property="og:title" content="MyBlog"/>
 
-  <meta property="og:site_name" content="Hexo"/>
+  <meta property="og:site_name" content="X-Site"/>
 
   
   <meta property="og:image" content="/favicon.ico"/>
   
 
   <link href="/favicon.ico" rel="icon">
-  <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  <link rel="alternate" href="/atom.xml" title="X-Site" type="application/atom+xml">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
 <meta name="generator" content="Hexo 6.0.0"></head>
 
@@ -41,12 +43,20 @@
     <header>
   <div class="site-branding">
     <h1 class="site-title">
-      <a href="/">Hexo</a>
+      <a href="/">X-Site</a>
     </h1>
     <p class="site-description"></p>
   </div>
   <nav class="site-navigation">
     <ul>
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/archives">Archives</a></li>
+      
+        <li><a href="/categories">Categories</a></li>
+      
+        <li><a href="/tags">Tags</a></li>
       
     </ul>
   </nav>
@@ -97,8 +107,83 @@
 </article>
 
   
+	<section id="comment" class="comment">
+		<div id="gitalk-container"></div>
+	</section>
+	<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+	<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+	<script>
+		var gitalk = new Gitalk({
+			clientID: '',
+			clientSecret: '',
+			repo: '',
+			owner: '',
+			admin: [''],
+			id: location.pathname,
+			distractionFreeMode: false
+		})
+
+		gitalk.render('gitalk-container')
+	</script>
 
 
+	<section id="comment" class="comment">
+		<div id="vcomments"></div>
+	</section>
+	<!-- LeanCloud -->
+	<script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.10.0/dist/av-min.js"></script>
+	<!-- Valine -->
+	<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+	<script>
+		new Valine({
+			el: '#vcomments',
+			appId: '',
+			appKey: ''
+		})
+	</script>
+
+
+	<section id="comment" class="comment">
+		<div id="gitment"></div>
+	</section>
+	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+	<script>
+		var gitment = new Gitment({
+			owner: '',
+			repo: '',
+			oauth: {
+				client_id: '',
+				client_secret: '',
+			},
+		})
+		gitment.render('gitment')
+	</script>
+
+
+	<section id="comment" class="comment">
+	  <div id="disqus_thread">
+	  <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	  </div>
+	</section>
+
+	<script type="text/javascript">
+	var disqus_shortname = '';
+	(function(){
+	  var dsq = document.createElement('script');
+	  dsq.type = 'text/javascript';
+	  dsq.async = true;
+	  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}());
+	(function(){
+	  var dsq = document.createElement('script');
+	  dsq.type = 'text/javascript';
+	  dsq.async = true;
+	  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}());
+	</script>
 
 
 
@@ -111,7 +196,7 @@
     Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
     </br>
     
-    &copy; 2022 John Doe
+    &copy; 2022 Gx
     
   </p>
 </footer>
