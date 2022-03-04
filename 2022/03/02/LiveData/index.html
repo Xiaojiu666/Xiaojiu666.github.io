@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Gx">
+
+
+
+    <meta name="description" content="description">
+
+
+
+<title>什么是LiveData | X-Blog</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 6.0.0"></head>
+
+<body>
+    <script>
+        // this function is used to check current theme before page loaded.
+        (() => {
+            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
+            const isDark = currentTheme === 'dark';
+            const pagebody = document.getElementsByTagName('body')[0]
+            if (isDark) {
+                pagebody.classList.add('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            } else {
+                pagebody.classList.remove('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Light"
+            }
+        })();
+    </script>
+
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Nine&#39;s Blog</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">博客</a>
+                
+                    <a class="menu-item" href="/category">分类</a>
+                
+                    <a class="menu-item" href="/tag">标签</a>
+                
+                    <a class="menu-item" href="/about">关于</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Nine&#39;s Blog</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">博客</a>
+                
+                    <a class="menu-item" href="/category">分类</a>
+                
+                    <a class="menu-item" href="/tag">标签</a>
+                
+                    <a class="menu-item" href="/about">关于</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+            <div class="main">
+                <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">什么是LiveData</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">Gx</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">March 2, 2022&nbsp;&nbsp;21:05:41</a>
+                        </span>
+                    
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/JetPack/">JetPack</a>
+                            
+                        </span>
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h3 id="什么是LiveData"><a href="#什么是LiveData" class="headerlink" title="什么是LiveData"></a>什么是LiveData</h3><h6 id="官方介绍"><a href="#官方介绍" class="headerlink" title="官方介绍"></a>官方介绍</h6><p><a target="_blank" rel="noopener" href="https://developer.android.google.cn/reference/androidx/lifecycle/LiveData"><code>LiveData</code></a> 是一种可观察的数据存储器类。与常规的可观察类不同，LiveData 具有生命周期感知能力，意指它遵循其他应用组件（如 Activity、Fragment 或 Service）的生命周期。这种感知能力可确保 LiveData 仅更新处于活跃生命周期状态的应用组件观察者。</p>
+<p>如果观察者（由 Observer 类表示）的生命周期处于 STARTED 或 RESUMED 状态，则 LiveData 会认为该观察者处于活跃状态。LiveData 只会将更新通知给活跃的观察者。为观察 LiveData 对象而注册的非活跃观察者不会收到更改通知。</p>
+<p>Livedata 遵循观察者模式，并且 Livedata 会在生命周期变化的时候通知观察者。<br>它优雅的处理了生命周期问题，并不会所有的数据变化都会回调，所以你可以在他回调时大胆的做更新 UI操作。</p>
+<p>观察者都是绑定Lifecycle(观察的生命周期)的， Lifecycle destory 的话，会销毁自己。</p>
+<h3 id="基础使用"><a href="#基础使用" class="headerlink" title="基础使用"></a>基础使用</h3><p>使用 LiveData的步骤：</p>
+<ol>
+<li>创建LiveData的实例，以存储某种数据类型(泛型，包括集合)，大多数都配合ViewModel使用</li>
+<li>通过observe()方法，绑定Observe对象，该对象会在被LiveData所修饰的数据改变时触发，将修改后的数据回调回来。</li>
+</ol>
+<h6 id="创建LiveData-对象"><a href="#创建LiveData-对象" class="headerlink" title="创建LiveData 对象"></a>创建LiveData 对象</h6><p>大多数LiveData 都创建在ViewModel里，因为减少UI的代码量，并且使UI和 数据分离</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">NameViewModel</span> : ViewModel() &#123;</span><br><span class="line">    <span class="comment">// Create a LiveData with a String</span></span><br><span class="line">    val currentName: MutableLiveData&lt;String&gt; by lazy &#123;</span><br><span class="line">        MutableLiveData&lt;String&gt;()</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// 通过liveData 方法创建 ， 可以发送一些延迟数据 或者 数据源 可见LiveDataScope接口</span></span><br><span class="line">    <span class="keyword">var</span> currentTime: LiveData&lt;Long&gt; = liveData &#123;</span><br><span class="line">       <span class="keyword">while</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">           emit(System.currentTimeMillis())</span><br><span class="line">           delay(<span class="number">1000</span>)</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h6 id="观察-LiveData-对象"><a href="#观察-LiveData-对象" class="headerlink" title="观察 LiveData 对象"></a>观察 LiveData 对象</h6><p>通常，LiveData 仅在数据发生更改时才发送更新，并且仅发送给活跃观察者。此行为的一种例外情况是，观察者从非活跃状态更改为活跃状态时也会收到更新。此外，如果观察者第二次从非活跃状态更改为活跃状态，则只有在自上次变为活跃状态以来值发生了更改时，它才会收到更新。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">NameActivity</span> : AppCompatActivity() &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> val model: NameViewModel by <span class="title function_">viewModels</span><span class="params">()</span></span><br><span class="line"></span><br><span class="line">    override fun <span class="title function_">onCreate</span><span class="params">(savedInstanceState: Bundle?)</span> &#123;</span><br><span class="line">        <span class="built_in">super</span>.onCreate(savedInstanceState)</span><br><span class="line"></span><br><span class="line">        <span class="type">val</span> <span class="variable">nameObserver</span> <span class="operator">=</span> Observer&lt;String&gt; &#123; newName -&gt;</span><br><span class="line">            nameTextView.text = newName</span><br><span class="line">        &#125;</span><br><span class="line">        model.currentName.observe(<span class="built_in">this</span>, nameObserver)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h6 id="更新-LiveData-对象"><a href="#更新-LiveData-对象" class="headerlink" title="更新 LiveData 对象"></a>更新 LiveData 对象</h6><p>LiveData 没有公开可用的方法来更新存储的数据。所以我们会使用子类 MutableLiveData 重的 setValue(T) 和 postValue(T) 方法，进行更新LiveData中的数据</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">button.setOnClickListener &#123;</span><br><span class="line">    <span class="type">val</span> <span class="variable">anotherName</span> <span class="operator">=</span> <span class="string">&quot;Test&quot;</span></span><br><span class="line">    model.currentName.setValue(anotherName)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="进阶使用"><a href="#进阶使用" class="headerlink" title="进阶使用"></a>进阶使用</h3><h6 id="配合Room"><a href="#配合Room" class="headerlink" title="配合Room"></a>配合Room</h6><h6 id="配合携程"><a href="#配合携程" class="headerlink" title="配合携程"></a>配合携程</h6><h6 id="自定义LiveData"><a href="#自定义LiveData" class="headerlink" title="自定义LiveData"></a>自定义LiveData</h6><p>假设我们有一个需要实时同步的数据(例如心电图，股票)，在页面启动时开启，在销毁时断开</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">StockLiveData</span> : LiveData&lt;Int&gt;() &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="type">val</span> <span class="variable">stockManager</span> <span class="operator">=</span> StockManager()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="type">val</span> <span class="variable">listener</span> <span class="operator">=</span> SimplePriceListener &#123;</span><br><span class="line">        value = it</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    override fun <span class="title function_">onActive</span><span class="params">()</span> &#123;</span><br><span class="line">        stockManager.requestPriceUpdates(listener)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    override fun <span class="title function_">onInactive</span><span class="params">()</span> &#123;</span><br><span class="line">        stockManager.removeUpdates()</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>当 LiveData 对象具有活跃观察者时，会调用 onActive() 方法。这意味着，您需要从此方法开始观察股价更新。</li>
+<li>当 LiveData 对象没有任何活跃观察者时，会调用 onInactive() 方法。由于没有观察者在监听，因此没有理由与 StockManager 服务保持连接。</li>
+</ul>
+<h6 id="转换-LiveData"><a href="#转换-LiveData" class="headerlink" title="转换 LiveData"></a>转换 LiveData</h6><p>平常开发过程中，我们会需要将某些数据进行转化，例如:时间戳转化成字符串时间，我们可以通过<code>Transformations</code> 将一个LiveData对象转换成另一种LiveData对象</p>
+<ul>
+<li><p>Transformations.map()</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//愿数据</span></span><br><span class="line">val time : MutableLiveData&lt;Long&gt; by lazy &#123;</span><br><span class="line">    MutableLiveData()</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">val</span> <span class="variable">time</span> <span class="operator">=</span> viewModel.time</span><br><span class="line">      <span class="string">&quot;map test $it &quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Transformations.switchMap()</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">val time : MutableLiveData&lt;Long&gt; by lazy &#123;</span><br><span class="line">    MutableLiveData()</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">val</span> <span class="variable">time</span> <span class="operator">=</span> viewModel.time</span><br><span class="line"><span class="type">val</span> <span class="variable">switch</span> <span class="operator">=</span> Transformations.switchMap(time) &#123;</span><br><span class="line">    <span class="type">val</span> <span class="variable">value</span> <span class="operator">=</span> <span class="string">&quot;switch test $it &quot;</span></span><br><span class="line">    MutableLiveData&lt;String&gt;(value)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>switchMap 和 map的区别是，switchMap的回调方法返回的是一个LiveData对象，而 map 只需要返回数据类型即可，这也证明</p>
+</li>
+<li><p>区别<br>所以对于这两个函数的区别来说，map，更关注于数值的转换，他只会通过你之前的值去生成一个新的值，强调的是这个转换，也就是说新的LiveData对象的值，仍然是基于当前这个LiveData的值而生成的。</p>
+</li>
+</ul>
+<p>而switchMap，更关注于数值的触发，也就是说，他会监听你这个值的变化，而不关注你这个值本身，你可以理解成触发器或者扳机，当触发之后，你就需要自己去主动的返回任意一个你指定的liveData对象。</p>
+<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/a1203991686/article/details/106952398">map()和switchMap</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/newmandirl/article/details/100022021">Transformations的switchMap该怎么理解好</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/xhnmbest/article/details/105994122">数据库可视化工具SQLScout</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/35d143e84d42">深入了解架构组件之ViewModel</a></li>
+</ul>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>Gx</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="http://example.com/2022/03/02/LiveData/">http://example.com/2022/03/02/LiveData/</a></span>
+                    </p>
+                
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/Study/"># Study</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2022/03/03/hello-world/">Hello World</a>
+            
+            
+            <a class="next" rel="next" href="/2022/03/02/Dagger/">Dagger2</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+            </div>
+            <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© Gx | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+
+</html>
