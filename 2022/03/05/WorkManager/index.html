@@ -15,7 +15,7 @@
 
 
 
-<title>Hello World | Nine`s Blog</title>
+<title>WorkManager | Nine`s Blog</title>
 
 
 
@@ -195,7 +195,7 @@
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">Hello World</h1>
+            <h1 class="post-title">WorkManager</h1>
             
                 <div class="post-meta">
                     
@@ -204,14 +204,14 @@
 
                     
                         <span class="post-time">
-                        Date: <a href="#">March 3, 2022&nbsp;&nbsp;9:29:59</a>
+                        Date: <a href="#">March 5, 2022&nbsp;&nbsp;22:53:41</a>
                         </span>
                     
                     
                         <span class="post-category">
                     Category:
                             
-                                <a href="/categories/%E6%9D%82%E6%96%87/">杂文</a>
+                                <a href="/categories/JetPack/">JetPack</a>
                             
                         </span>
                     
@@ -220,19 +220,30 @@
         </header>
 
         <div class="post-content">
-            <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+            <h3 id="什么是WorkManager"><a href="#什么是WorkManager" class="headerlink" title="什么是WorkManager"></a>什么是WorkManager</h3><h5 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h5><p>  WorkManger可以定义“工作”，将其置于队列，随后运行，并且在完成时通知</p>
+<h5 id="基础功能"><a href="#基础功能" class="headerlink" title="基础功能"></a>基础功能</h5><ul>
+<li><p>延期执行<br>不仅仅是定时执行任务，不必考虑执行时间，WorkManager会自动分配最佳时机，包括电量，状态等</p>
+</li>
+<li><p>约束 Constraints<br>例如:空闲时&#x2F;充电时&#x2F;连接网络时&#x2F;</p>
+</li>
+<li><p>多工作之间 通信<br>例如:获取数据工作完成后，同步数据到本地数据库</p>
+</li>
+<li><p>定期执行任务</p>
+</li>
+<li><p>清楚的观察任务状态、</p>
+</li>
+<li><p>持久性<br>无论在页面被回收还是横竖屏切换，包括进程被终止，设备重启，任务都会从中断位置恢复</p>
+</li>
+<li><p>保持任务唯一性 ExistingWorkPolicy<br>例如网络请求借口，重复点击导致借口被调用多次,通过ExistingWorkPolicy 枚举进行控制</p>
+</li>
+<li><p>支持多进程</p>
+</li>
+</ul>
+<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1tS4y1F7Bc?p=1&share_medium=iphone&share_plat=ios&share_source=WEIXIN&share_tag=s_i&timestamp=1646407852&unique_k=Usz3RNA">Android Studio 对现代 WorkManager 的支持</a></li>
+<li><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000020077800">WorkManager从入门到实践，有这一篇就够了</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/68e720b8a939">即学即用Android Jetpack - WorkManger</a></li>
+</ul>
 
         </div>
 
@@ -247,7 +258,7 @@
                 
                     <p class="copyright-item">
                         <span>Permalink:</span>
-                        <span><a href="http://example.com/2022/03/03/hello-world/">http://example.com/2022/03/03/hello-world/</a></span>
+                        <span><a href="http://example.com/2022/03/05/WorkManager/">http://example.com/2022/03/05/WorkManager/</a></span>
                     </p>
                 
                 
@@ -261,7 +272,7 @@
                 <span class="tag">
                     
                     
-                        <a href="/tags/%E6%97%A5%E5%B8%B8/"># 日常</a>
+                        <a href="/tags/%E5%AD%A6%E4%B9%A0/"># 学习</a>
                     
                         
                 </span>
@@ -275,7 +286,7 @@
         <section class="post-nav">
             
             
-            <a class="next" rel="next" href="/2022/03/02/Dagger/">Dagger2</a>
+            <a class="next" rel="next" href="/2022/03/02/LiveData/">LiveData</a>
             
         </section>
 
