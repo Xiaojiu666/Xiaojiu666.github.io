@@ -1,0 +1,1334 @@
+2022-03-08 13:36:42.813 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 0
+2022-03-08 13:36:42.862 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 1
+2022-03-08 13:36:42.878 19692-19692/com.atom.cam D/Dialog: mIsSamsungBasicInteraction = false
+2022-03-08 13:36:42.878 19692-19692/com.atom.cam D/Dialog: mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+2022-03-08 13:36:42.881 19692-19692/com.atom.cam I/DecorView: createDecorCaptionView >> DecorView@e33fb71[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+2022-03-08 13:36:42.899 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=116
+2022-03-08 13:36:42.900 19692-19692/com.atom.cam D/ViewRootImpl@53e1473[MultiScreenMVPBActivity]: setView = DecorView@e33fb71[MultiScreenMVPBActivity] TM=true MM=false
+2022-03-08 13:36:42.927 19692-19692/com.atom.cam D/MultiScreenCameraSingleFragment: GroupConnectControl isOpenVoice=false
+2022-03-08 13:36:42.927 19692-19692/com.atom.cam I/HLSDK_CameraCoreIml: ==================save to Album
+2022-03-08 13:36:42.929 19692-19692/com.atom.cam I/ACodec:  [] Now uninitialized
+2022-03-08 13:36:42.929 19692-20470/com.atom.cam I/ACodec: [] onAllocateComponent
+2022-03-08 13:36:42.931 19692-20470/com.atom.cam I/OMXClient: IOmx service obtained
+2022-03-08 13:36:42.933 19692-20470/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded
+2022-03-08 13:36:42.936 19692-19692/com.atom.cam I/HLSDK_RecordData: readPcmFile Length:0
+2022-03-08 13:36:42.936 19692-20470/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded->Idle
+2022-03-08 13:36:42.943 19692-20470/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Idle->Executing
+2022-03-08 13:36:42.944 19692-20470/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Executing
+2022-03-08 13:36:42.944 19692-20470/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Executing->Idle
+2022-03-08 13:36:42.946 19692-20470/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Idle->Loaded
+2022-03-08 13:36:42.946 19692-20470/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded
+2022-03-08 13:36:42.946 19692-20470/com.atom.cam I/ACodec:  [OMX.google.aac.encoder] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:36:42.947 19692-19692/com.atom.cam I/MultiScreenCameraSingleFragment: ===============================setRecordAnimation====isStartAnimation=false
+2022-03-08 13:36:42.947 19692-19692/com.atom.cam I/MultiScreenCameraSingleFragment: =============================recordAnimation   stop
+2022-03-08 13:36:42.949 19692-19692/com.atom.cam D/ViewRootImpl@53e1473[MultiScreenMVPBActivity]: dispatchAttachedToWindow
+2022-03-08 13:36:42.962 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:36:42.967 19692-19692/com.atom.cam D/ViewRootImpl@53e1473[MultiScreenMVPBActivity]: Relayout returned: old=[0,72][2076,1080] new=[936,438][1140,642] result=0x7 surface={valid=true 542583480320} changed=true
+2022-03-08 13:36:42.968 19692-19807/com.atom.cam D/OpenGLRenderer: eglCreateWindowSurface = 0x7e5f371700, 0x7e547ee010
+2022-03-08 13:36:42.972 19692-19692/com.atom.cam D/ViewRootImpl@53e1473[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2022-03-08 13:36:42.973 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@e33fb71[MultiScreenMVPBActivity]
+2022-03-08 13:36:42.973 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -855310
+2022-03-08 13:36:42.974 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@e33fb71[MultiScreenMVPBActivity]
+2022-03-08 13:36:42.974 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -855310
+2022-03-08 13:36:42.974 19692-19692/com.atom.cam V/InputMethodManager: Starting input: tba=com.atom.cam ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2022-03-08 13:36:42.974 19692-19692/com.atom.cam D/InputMethodManager: startInputInner - Id : 0
+2022-03-08 13:36:42.974 19692-19692/com.atom.cam I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2022-03-08 13:36:42.976 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=103
+2022-03-08 13:36:42.976 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=130
+2022-03-08 13:36:42.977 19692-19692/com.atom.cam D/ViewRootImpl@53e1473[MultiScreenMVPBActivity]: MSG_RESIZED: frame=Rect(936, 438 - 1140, 642) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=2
+2022-03-08 13:36:43.000 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2022-03-08 13:36:43.001 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@f25608b[MultiScreenMVPBActivity]
+2022-03-08 13:36:43.001 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -16777216
+2022-03-08 13:36:43.044 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:36:43.115 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:36:43.188 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:36:52.226 19692-20470/com.atom.cam I/ACodec:  [OMX.google.aac.encoder] Now uninitialized
+2022-03-08 13:36:52.227 19692-20470/com.atom.cam I/ACodec:  [] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:36:52.227 19692-20470/com.atom.cam I/MediaCodec: Codec shutdown complete
+2022-03-08 13:36:52.226 19692-19703/com.atom.cam I/com.atom.cam: Background concurrent copying GC freed 12907(13MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 13MB/27MB, paused 177us total 130.881ms
+2022-03-08 13:36:52.226 19692-19703/com.atom.cam I/com.atom.cam: Background concurrent copying GC freed 12907(13MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 13MB/27MB, paused 177us total 130.881ms
+2022-03-08 13:36:53.123 19692-19692/com.atom.cam D/ViewRootImpl@53e1473[MultiScreenMVPBActivity]: ViewPostIme key 0
+2022-03-08 13:36:53.205 19692-19692/com.atom.cam D/ViewRootImpl@53e1473[MultiScreenMVPBActivity]: ViewPostIme key 1
+2022-03-08 13:36:53.209 19692-19807/com.atom.cam D/OpenGLRenderer: eglDestroySurface = 0x7e5f371700, 0x7e547ee000
+2022-03-08 13:36:53.210 19692-19692/com.atom.cam D/ViewRootImpl@53e1473[MultiScreenMVPBActivity]: dispatchDetachedFromWindow
+2022-03-08 13:36:53.215 19692-19692/com.atom.cam D/ViewRootImpl@53e1473[MultiScreenMVPBActivity]: Surface release. android.view.ViewRootImpl.doDie:7998 android.view.ViewRootImpl.die:7966 android.view.WindowManagerGlobal.removeViewLocked:497 android.view.WindowManagerGlobal.removeView:435 android.view.WindowManagerImpl.removeViewImmediate:124 android.app.Dialog.dismissDialog:518 android.app.Dialog.dismiss:501 android.app.Dialog.cancel:1462 
+2022-03-08 13:36:53.225 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=116
+2022-03-08 13:36:53.225 19692-19692/com.atom.cam W/InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2022-03-08 13:36:53.227 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2022-03-08 13:36:53.230 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@f25608b[MultiScreenMVPBActivity]
+2022-03-08 13:36:53.230 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -16777216
+2022-03-08 13:36:53.232 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@f25608b[MultiScreenMVPBActivity]
+2022-03-08 13:36:53.232 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -16777216
+2022-03-08 13:36:53.232 19692-19692/com.atom.cam V/InputMethodManager: Starting input: tba=com.atom.cam ic=null mNaviBarColor -16777216 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2022-03-08 13:36:53.232 19692-19692/com.atom.cam D/InputMethodManager: startInputInner - Id : 0
+2022-03-08 13:36:53.232 19692-19692/com.atom.cam I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2022-03-08 13:36:53.235 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=76
+2022-03-08 13:36:53.235 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=103
+2022-03-08 13:36:53.235 19692-19692/com.atom.cam E/ViewRootImpl: sendUserActionEvent() returned.
+2022-03-08 13:36:53.933 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 0
+2022-03-08 13:36:53.999 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 1
+2022-03-08 13:36:54.005 19692-19692/com.atom.cam D/Dialog: mIsSamsungBasicInteraction = false
+2022-03-08 13:36:54.005 19692-19692/com.atom.cam D/Dialog: mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+2022-03-08 13:36:54.008 19692-19692/com.atom.cam I/DecorView: createDecorCaptionView >> DecorView@94d3ec7[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+2022-03-08 13:36:54.022 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=84
+2022-03-08 13:36:54.022 19692-19692/com.atom.cam D/ViewRootImpl@69acd19[MultiScreenMVPBActivity]: setView = DecorView@94d3ec7[MultiScreenMVPBActivity] TM=true MM=false
+2022-03-08 13:36:54.040 19692-19692/com.atom.cam D/MultiScreenCameraSingleFragment: GroupConnectControl isOpenVoice=false
+2022-03-08 13:36:54.040 19692-19692/com.atom.cam I/HLSDK_CameraCoreIml: ==================save to Album
+2022-03-08 13:36:54.042 19692-19692/com.atom.cam I/ACodec:  [] Now uninitialized
+2022-03-08 13:36:54.042 19692-20490/com.atom.cam I/ACodec: [] onAllocateComponent
+2022-03-08 13:36:54.044 19692-20490/com.atom.cam I/OMXClient: IOmx service obtained
+2022-03-08 13:36:54.045 19692-20490/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded
+2022-03-08 13:36:54.048 19692-19692/com.atom.cam I/HLSDK_RecordData: readPcmFile Length:0
+2022-03-08 13:36:54.053 19692-20490/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded->Idle
+2022-03-08 13:36:54.060 19692-20490/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Idle->Executing
+2022-03-08 13:36:54.061 19692-20490/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Executing
+2022-03-08 13:36:54.061 19692-20490/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Executing->Idle
+2022-03-08 13:36:54.061 19692-20490/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Buffer 4 on port 0 still has status 2
+2022-03-08 13:36:54.061 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:36:54.062 19692-20490/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Idle->Loaded
+2022-03-08 13:36:54.062 19692-20490/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded
+2022-03-08 13:36:54.062 19692-20490/com.atom.cam I/ACodec:  [OMX.google.aac.encoder] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:36:54.062 19692-19692/com.atom.cam I/MultiScreenCameraSingleFragment: ===============================setRecordAnimation====isStartAnimation=false
+2022-03-08 13:36:54.062 19692-19692/com.atom.cam I/MultiScreenCameraSingleFragment: =============================recordAnimation   stop
+2022-03-08 13:36:54.064 19692-19692/com.atom.cam D/ViewRootImpl@69acd19[MultiScreenMVPBActivity]: dispatchAttachedToWindow
+2022-03-08 13:36:54.079 19692-19692/com.atom.cam D/ViewRootImpl@69acd19[MultiScreenMVPBActivity]: Relayout returned: old=[0,72][2076,1080] new=[936,438][1140,642] result=0x7 surface={valid=true 542583480320} changed=true
+2022-03-08 13:36:54.081 19692-19807/com.atom.cam D/OpenGLRenderer: eglCreateWindowSurface = 0x7e67472200, 0x7e547ee010
+2022-03-08 13:36:54.083 19692-19692/com.atom.cam D/ViewRootImpl@69acd19[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2022-03-08 13:36:54.083 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@94d3ec7[MultiScreenMVPBActivity]
+2022-03-08 13:36:54.083 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -855310
+2022-03-08 13:36:54.084 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@94d3ec7[MultiScreenMVPBActivity]
+2022-03-08 13:36:54.084 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -855310
+2022-03-08 13:36:54.084 19692-19692/com.atom.cam V/InputMethodManager: Starting input: tba=com.atom.cam ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2022-03-08 13:36:54.084 19692-19692/com.atom.cam D/InputMethodManager: startInputInner - Id : 0
+2022-03-08 13:36:54.084 19692-19692/com.atom.cam I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2022-03-08 13:36:54.086 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=79
+2022-03-08 13:36:54.086 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=76
+2022-03-08 13:36:54.087 19692-19692/com.atom.cam D/ViewRootImpl@69acd19[MultiScreenMVPBActivity]: MSG_RESIZED: frame=Rect(936, 438 - 1140, 642) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=2
+2022-03-08 13:36:54.108 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2022-03-08 13:36:54.108 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@f25608b[MultiScreenMVPBActivity]
+2022-03-08 13:36:54.108 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -16777216
+2022-03-08 13:36:54.112 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:36:54.173 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:36:54.245 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:36:54.316 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:36:54.388 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:36:54.440 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:36:54.524 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:36:54.762 19692-20136/com.atom.cam I/chatty: uid=11782(com.atom.cam) VideoThread_HLS identical 4 lines
+2022-03-08 13:36:54.845 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:36:54.918 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:36:54.969 19692-20136/com.atom.cam I/chatty: uid=11782(com.atom.cam) VideoThread_HLS identical 1 line
+2022-03-08 13:36:55.054 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:36:55.117 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:36:55.168 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:00.719 19692-19692/com.atom.cam D/ViewRootImpl@69acd19[MultiScreenMVPBActivity]: ViewPostIme pointer 0
+2022-03-08 13:37:00.784 19692-19692/com.atom.cam D/ViewRootImpl@69acd19[MultiScreenMVPBActivity]: ViewPostIme pointer 1
+2022-03-08 13:37:01.749 19692-19692/com.atom.cam D/ViewRootImpl@69acd19[MultiScreenMVPBActivity]: ViewPostIme key 0
+2022-03-08 13:37:01.817 19692-19692/com.atom.cam D/ViewRootImpl@69acd19[MultiScreenMVPBActivity]: ViewPostIme key 1
+2022-03-08 13:37:01.819 19692-19807/com.atom.cam D/OpenGLRenderer: eglDestroySurface = 0x7e67472200, 0x7e547ee000
+2022-03-08 13:37:01.819 19692-19692/com.atom.cam D/ViewRootImpl@69acd19[MultiScreenMVPBActivity]: dispatchDetachedFromWindow
+2022-03-08 13:37:01.820 19692-19692/com.atom.cam D/ViewRootImpl@69acd19[MultiScreenMVPBActivity]: Surface release. android.view.ViewRootImpl.doDie:7998 android.view.ViewRootImpl.die:7966 android.view.WindowManagerGlobal.removeViewLocked:497 android.view.WindowManagerGlobal.removeView:435 android.view.WindowManagerImpl.removeViewImmediate:124 android.app.Dialog.dismissDialog:518 android.app.Dialog.dismiss:501 android.app.Dialog.cancel:1462 
+2022-03-08 13:37:01.829 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=84
+2022-03-08 13:37:01.829 19692-19692/com.atom.cam W/InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2022-03-08 13:37:01.834 19692-19692/com.atom.cam E/ViewRootImpl: sendUserActionEvent() returned.
+2022-03-08 13:37:01.834 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2022-03-08 13:37:01.835 19692-20490/com.atom.cam I/ACodec:  [OMX.google.aac.encoder] Now uninitialized
+2022-03-08 13:37:01.835 19692-20490/com.atom.cam I/ACodec:  [] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:37:01.835 19692-20490/com.atom.cam I/MediaCodec: Codec shutdown complete
+2022-03-08 13:37:01.835 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@f25608b[MultiScreenMVPBActivity]
+2022-03-08 13:37:01.835 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -16777216
+2022-03-08 13:37:01.836 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@f25608b[MultiScreenMVPBActivity]
+2022-03-08 13:37:01.836 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -16777216
+2022-03-08 13:37:01.836 19692-19692/com.atom.cam V/InputMethodManager: Starting input: tba=com.atom.cam ic=null mNaviBarColor -16777216 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2022-03-08 13:37:01.836 19692-19692/com.atom.cam D/InputMethodManager: startInputInner - Id : 0
+2022-03-08 13:37:01.836 19692-19692/com.atom.cam I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2022-03-08 13:37:01.838 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=111
+2022-03-08 13:37:01.838 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=79
+2022-03-08 13:37:02.473 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 0
+2022-03-08 13:37:02.516 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 1
+2022-03-08 13:37:02.550 19692-19692/com.atom.cam I/HLSDK_DeviceCoreManager: ------------------deviceCoreHoldercom.hl.manager.DeviceCoreHolder@b098354
+2022-03-08 13:37:02.552 19692-19692/com.atom.cam E/HLSDK_CameraCoreIml: snapshotCameraVideo RECORDING_SCREEN
+2022-03-08 13:37:07.445 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 0
+2022-03-08 13:37:07.528 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 1
+2022-03-08 13:37:07.571 19692-19692/com.atom.cam I/HLSDK_DeviceCoreManager: ------------------deviceCoreHoldercom.hl.manager.DeviceCoreHolder@b098354
+2022-03-08 13:37:07.572 19692-19692/com.atom.cam E/HLSDK_CameraCoreIml: snapshotCameraVideo RECORDING_SCREEN
+2022-03-08 13:37:08.906 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 0
+2022-03-08 13:37:08.972 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 1
+2022-03-08 13:37:08.999 19692-19692/com.atom.cam I/HLSDK_DeviceCoreManager: ------------------deviceCoreHoldercom.hl.manager.DeviceCoreHolder@b098354
+2022-03-08 13:37:08.999 19692-19692/com.atom.cam E/HLSDK_CameraCoreIml: snapshotCameraVideo RECORDING_SCREEN
+2022-03-08 13:37:12.833 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 0
+2022-03-08 13:37:12.933 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 1
+2022-03-08 13:37:12.970 19692-19692/com.atom.cam I/HLSDK_DeviceCoreManager: ------------------deviceCoreHoldercom.hl.manager.DeviceCoreHolder@b098354
+2022-03-08 13:37:12.970 19692-19692/com.atom.cam E/HLSDK_CameraCoreIml: snapshotCameraVideo RECORDING_SCREEN
+2022-03-08 13:37:14.814 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 0
+2022-03-08 13:37:14.880 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 1
+2022-03-08 13:37:14.888 19692-19692/com.atom.cam D/Dialog: mIsSamsungBasicInteraction = false
+2022-03-08 13:37:14.888 19692-19692/com.atom.cam D/Dialog: mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+2022-03-08 13:37:14.891 19692-19692/com.atom.cam I/DecorView: createDecorCaptionView >> DecorView@adb96af[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+2022-03-08 13:37:14.912 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=76
+2022-03-08 13:37:14.913 19692-19692/com.atom.cam D/ViewRootImpl@d4e25c1[MultiScreenMVPBActivity]: setView = DecorView@adb96af[MultiScreenMVPBActivity] TM=true MM=false
+2022-03-08 13:37:14.941 19692-19692/com.atom.cam D/MultiScreenCameraSingleFragment: GroupConnectControl isOpenVoice=false
+2022-03-08 13:37:14.941 19692-19692/com.atom.cam I/HLSDK_CameraCoreIml: ==================save to Album
+2022-03-08 13:37:14.943 19692-19692/com.atom.cam I/ACodec:  [] Now uninitialized
+2022-03-08 13:37:14.944 19692-20520/com.atom.cam I/ACodec: [] onAllocateComponent
+2022-03-08 13:37:14.945 19692-20520/com.atom.cam I/OMXClient: IOmx service obtained
+2022-03-08 13:37:14.947 19692-20520/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded
+2022-03-08 13:37:14.950 19692-19692/com.atom.cam I/HLSDK_RecordData: readPcmFile Length:0
+2022-03-08 13:37:14.950 19692-20520/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded->Idle
+2022-03-08 13:37:14.956 19692-20520/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Idle->Executing
+2022-03-08 13:37:14.957 19692-20520/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Executing
+2022-03-08 13:37:14.958 19692-20520/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Executing->Idle
+2022-03-08 13:37:14.959 19692-20520/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Idle->Loaded
+2022-03-08 13:37:14.959 19692-20520/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded
+2022-03-08 13:37:14.959 19692-20520/com.atom.cam I/ACodec:  [OMX.google.aac.encoder] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:37:14.959 19692-19692/com.atom.cam I/MultiScreenCameraSingleFragment: ===============================setRecordAnimation====isStartAnimation=false
+2022-03-08 13:37:14.959 19692-19692/com.atom.cam I/MultiScreenCameraSingleFragment: =============================recordAnimation   stop
+2022-03-08 13:37:14.961 19692-19692/com.atom.cam D/ViewRootImpl@d4e25c1[MultiScreenMVPBActivity]: dispatchAttachedToWindow
+2022-03-08 13:37:14.966 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:14.979 19692-19692/com.atom.cam D/ViewRootImpl@d4e25c1[MultiScreenMVPBActivity]: Relayout returned: old=[0,72][2076,1080] new=[936,438][1140,642] result=0x7 surface={valid=true 542895714304} changed=true
+2022-03-08 13:37:14.981 19692-19807/com.atom.cam D/OpenGLRenderer: eglCreateWindowSurface = 0x7e66e4fc00, 0x7e671b3010
+2022-03-08 13:37:14.983 19692-19692/com.atom.cam D/ViewRootImpl@d4e25c1[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2022-03-08 13:37:14.984 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@adb96af[MultiScreenMVPBActivity]
+2022-03-08 13:37:14.984 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -855310
+2022-03-08 13:37:14.986 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@adb96af[MultiScreenMVPBActivity]
+2022-03-08 13:37:14.986 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -855310
+2022-03-08 13:37:14.986 19692-19692/com.atom.cam V/InputMethodManager: Starting input: tba=com.atom.cam ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2022-03-08 13:37:14.986 19692-19692/com.atom.cam D/InputMethodManager: startInputInner - Id : 0
+2022-03-08 13:37:14.986 19692-19692/com.atom.cam I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2022-03-08 13:37:14.989 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=84
+2022-03-08 13:37:14.989 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=111
+2022-03-08 13:37:14.996 19692-19692/com.atom.cam D/ViewRootImpl@d4e25c1[MultiScreenMVPBActivity]: MSG_RESIZED: frame=Rect(936, 438 - 1140, 642) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=2
+2022-03-08 13:37:15.014 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2022-03-08 13:37:15.015 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@f25608b[MultiScreenMVPBActivity]
+2022-03-08 13:37:15.015 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -16777216
+2022-03-08 13:37:15.048 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:15.110 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:15.172 19692-20136/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:17.139 19692-19692/com.atom.cam D/ViewRootImpl@d4e25c1[MultiScreenMVPBActivity]: ViewPostIme key 0
+2022-03-08 13:37:17.193 19692-19692/com.atom.cam D/ViewRootImpl@d4e25c1[MultiScreenMVPBActivity]: ViewPostIme key 1
+2022-03-08 13:37:17.202 19692-19807/com.atom.cam D/OpenGLRenderer: eglDestroySurface = 0x7e66e4fc00, 0x7e671b3000
+2022-03-08 13:37:17.202 19692-19692/com.atom.cam D/ViewRootImpl@d4e25c1[MultiScreenMVPBActivity]: dispatchDetachedFromWindow
+2022-03-08 13:37:17.202 19692-19692/com.atom.cam D/ViewRootImpl@d4e25c1[MultiScreenMVPBActivity]: Surface release. android.view.ViewRootImpl.doDie:7998 android.view.ViewRootImpl.die:7966 android.view.WindowManagerGlobal.removeViewLocked:497 android.view.WindowManagerGlobal.removeView:435 android.view.WindowManagerImpl.removeViewImmediate:124 android.app.Dialog.dismissDialog:518 android.app.Dialog.dismiss:501 android.app.Dialog.cancel:1462 
+2022-03-08 13:37:17.213 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=76
+2022-03-08 13:37:17.214 19692-19692/com.atom.cam W/InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2022-03-08 13:37:17.217 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2022-03-08 13:37:17.218 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@f25608b[MultiScreenMVPBActivity]
+2022-03-08 13:37:17.218 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -16777216
+2022-03-08 13:37:17.219 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@f25608b[MultiScreenMVPBActivity]
+2022-03-08 13:37:17.220 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -16777216
+2022-03-08 13:37:17.220 19692-19692/com.atom.cam V/InputMethodManager: Starting input: tba=com.atom.cam ic=null mNaviBarColor -16777216 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2022-03-08 13:37:17.220 19692-19692/com.atom.cam D/InputMethodManager: startInputInner - Id : 0
+2022-03-08 13:37:17.220 19692-19692/com.atom.cam I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2022-03-08 13:37:17.222 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=76
+2022-03-08 13:37:17.222 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=84
+2022-03-08 13:37:17.222 19692-19692/com.atom.cam E/ViewRootImpl: sendUserActionEvent() returned.
+2022-03-08 13:37:20.522 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme key 0
+2022-03-08 13:37:20.611 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme key 1
+2022-03-08 13:37:22.233 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 0
+2022-03-08 13:37:22.290 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 1
+2022-03-08 13:37:22.292 19692-19692/com.atom.cam D/MultiScreenCameraSingleFragment: 点击了退出
+2022-03-08 13:37:22.297 19692-19692/com.atom.cam D/Dialog: mIsSamsungBasicInteraction = false
+2022-03-08 13:37:22.297 19692-19692/com.atom.cam D/Dialog: mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+2022-03-08 13:37:22.313 19692-19692/com.atom.cam I/DecorView: createDecorCaptionView >> DecorView@3643aec[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+2022-03-08 13:37:22.331 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=77
+2022-03-08 13:37:22.331 19692-19692/com.atom.cam D/ViewRootImpl@5990d97[MultiScreenMVPBActivity]: setView = DecorView@3643aec[MultiScreenMVPBActivity] TM=true MM=false
+2022-03-08 13:37:22.333 19692-19692/com.atom.cam D/ViewRootImpl@5990d97[MultiScreenMVPBActivity]: dispatchAttachedToWindow
+2022-03-08 13:37:22.354 19692-19692/com.atom.cam D/ViewRootImpl@5990d97[MultiScreenMVPBActivity]: Relayout returned: old=[0,72][2076,1080] new=[630,321][1590,759] result=0x7 surface={valid=true 542895714304} changed=true
+2022-03-08 13:37:22.362 19692-19807/com.atom.cam D/OpenGLRenderer: eglCreateWindowSurface = 0x7e66e4fc00, 0x7e671b3010
+2022-03-08 13:37:22.379 19692-19692/com.atom.cam D/ViewRootImpl@5990d97[MultiScreenMVPBActivity]: MSG_RESIZED: frame=Rect(630, 321 - 1590, 759) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=2
+2022-03-08 13:37:22.379 19692-19692/com.atom.cam D/ViewRootImpl@5990d97[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2022-03-08 13:37:22.400 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@3643aec[MultiScreenMVPBActivity]
+2022-03-08 13:37:22.400 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -855310
+2022-03-08 13:37:22.403 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@3643aec[MultiScreenMVPBActivity]
+2022-03-08 13:37:22.403 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -855310
+2022-03-08 13:37:22.403 19692-19692/com.atom.cam V/InputMethodManager: Starting input: tba=com.atom.cam ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : false , NavTrans : false
+2022-03-08 13:37:22.403 19692-19692/com.atom.cam D/InputMethodManager: startInputInner - Id : 0
+2022-03-08 13:37:22.403 19692-19692/com.atom.cam I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2022-03-08 13:37:22.406 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=84
+2022-03-08 13:37:22.406 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=76
+2022-03-08 13:37:22.408 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_RESIZED: frame=Rect(0, 0 - 2220, 1080) ci=Rect(0, 0 - 144, 0) vi=Rect(0, 0 - 0, 0) or=2
+2022-03-08 13:37:22.409 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2022-03-08 13:37:22.409 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@f25608b[MultiScreenMVPBActivity]
+2022-03-08 13:37:22.409 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -16777216
+2022-03-08 13:37:22.883 19692-20520/com.atom.cam I/ACodec:  [OMX.google.aac.encoder] Now uninitialized
+2022-03-08 13:37:22.883 19692-20520/com.atom.cam I/ACodec:  [] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:37:22.883 19692-20520/com.atom.cam I/MediaCodec: Codec shutdown complete
+2022-03-08 13:37:24.680 19692-19692/com.atom.cam D/ViewRootImpl@5990d97[MultiScreenMVPBActivity]: ViewPostIme pointer 0
+2022-03-08 13:37:24.740 19692-19692/com.atom.cam D/ViewRootImpl@5990d97[MultiScreenMVPBActivity]: ViewPostIme pointer 1
+2022-03-08 13:37:24.753 19692-19692/com.atom.cam D/Dialog: mIsSamsungBasicInteraction = false
+2022-03-08 13:37:24.753 19692-19692/com.atom.cam D/Dialog: mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+2022-03-08 13:37:24.756 19692-19692/com.atom.cam I/DecorView: createDecorCaptionView >> DecorView@d0a188f[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+2022-03-08 13:37:24.772 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=79
+2022-03-08 13:37:24.773 19692-19692/com.atom.cam D/ViewRootImpl@72d98a1[MultiScreenMVPBActivity]: setView = DecorView@d0a188f[MultiScreenMVPBActivity] TM=true MM=false
+2022-03-08 13:37:24.797 19692-19692/com.atom.cam D/MultiScreenCameraSingleFragment: GroupConnectControl isOpenVoice=false
+2022-03-08 13:37:24.797 19692-19692/com.atom.cam I/HLSDK_CameraCoreIml: ==================save to Album
+2022-03-08 13:37:24.799 19692-19692/com.atom.cam I/ACodec:  [] Now uninitialized
+2022-03-08 13:37:24.799 19692-20534/com.atom.cam I/ACodec: [] onAllocateComponent
+2022-03-08 13:37:24.801 19692-20534/com.atom.cam I/OMXClient: IOmx service obtained
+2022-03-08 13:37:24.803 19692-20534/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded
+2022-03-08 13:37:24.806 19692-19692/com.atom.cam I/HLSDK_RecordData: readPcmFile Length:0
+2022-03-08 13:37:24.806 19692-20534/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded->Idle
+2022-03-08 13:37:24.812 19692-20534/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Idle->Executing
+2022-03-08 13:37:24.812 19692-20534/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Executing
+2022-03-08 13:37:24.813 19692-20534/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Executing->Idle
+2022-03-08 13:37:24.814 19692-20534/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Idle->Loaded
+2022-03-08 13:37:24.814 19692-20534/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded
+2022-03-08 13:37:24.814 19692-20534/com.atom.cam I/ACodec:  [OMX.google.aac.encoder] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:37:24.814 19692-19692/com.atom.cam I/MultiScreenCameraSingleFragment: ===============================setRecordAnimation====isStartAnimation=false
+2022-03-08 13:37:24.814 19692-19692/com.atom.cam I/MultiScreenCameraSingleFragment: =============================recordAnimation   stop
+2022-03-08 13:37:24.817 19692-19807/com.atom.cam D/OpenGLRenderer: eglDestroySurface = 0x7e66e4fc00, 0x7e671b3000
+2022-03-08 13:37:24.817 19692-19692/com.atom.cam D/ViewRootImpl@5990d97[MultiScreenMVPBActivity]: dispatchDetachedFromWindow
+2022-03-08 13:37:24.817 19692-19692/com.atom.cam D/ViewRootImpl@5990d97[MultiScreenMVPBActivity]: Surface release. android.view.ViewRootImpl.doDie:7998 android.view.ViewRootImpl.die:7966 android.view.WindowManagerGlobal.removeViewLocked:497 android.view.WindowManagerGlobal.removeView:435 android.view.WindowManagerImpl.removeViewImmediate:124 android.app.Dialog.dismissDialog:518 android.app.Dialog.dismiss:501 com.hualai.multiscreen.view.fragment.MultiScreenCameraSingleFragment$1$1.doConfirm:326 
+2022-03-08 13:37:24.833 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=77
+2022-03-08 13:37:24.834 19692-19692/com.atom.cam D/MultiScreenMVPBActivity: GroupConnectControl singleFragmentBack stopPlay mac=7CDDE9010618 isOpenVoice = false  isSpeakOpen=false
+2022-03-08 13:37:24.834 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 点击连接前的摄像头正在播放数量-- 1
+2022-03-08 13:37:24.834 19692-19692/com.atom.cam E/MultiScreenMVPBActivity: GroupConnectControl, 停止播放视频 mac= 7CDDE9010618 停止前 needPlay = 1
+2022-03-08 13:37:24.846 19692-19692/com.atom.cam I/HLSDK_ThreadPoolManager: 线程池中线程数目：1，队列中等待执行的任务数目：0，已执行完的任务数目：7
+2022-03-08 13:37:24.846 19692-19692/com.atom.cam D/GroupConnectControl:  暂停 视频 mac=7CDDE9010618
+2022-03-08 13:37:24.846 19692-19692/com.atom.cam E/HLSDK_CameraCoreIml: stopLoopThread 停止视频数据轮询线程
+2022-03-08 13:37:24.846 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: stopCheckConnection stop watching end,mac=7CDDE9010618
+2022-03-08 13:37:24.847 19692-20537/com.atom.cam W/HLSDK_FileManager: findFiles 删除 7CDDE9010618_1646643740234.jpg
+2022-03-08 13:37:24.848 19692-19692/com.atom.cam I/HLSDK_RecordData: clearFile----mp4Files=/storage/emulated/0/ATOM/temp/1646717781.mp4
+2022-03-08 13:37:24.848 19692-19692/com.atom.cam I/HLSDK_RecordData: clearFile----file != null && file.exists()=true
+2022-03-08 13:37:24.848 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 点击连接前的摄像头正在播放数量-- 0
+2022-03-08 13:37:24.848 19692-19692/com.atom.cam E/MultiScreenMVPBActivity: GroupConnectControl, 停止播放视频 后 needPlay = 0
+2022-03-08 13:37:24.848 19692-20234/com.atom.cam E/HLSDK_CameraCoreIml: 停止
+2022-03-08 13:37:24.848 19692-20234/com.atom.cam E/HLSDK_CameraCoreIml: resetDataQueue 初始化数据-》
+2022-03-08 13:37:24.859 19692-19692/com.atom.cam I/HLSDK_ThreadPoolManager: 线程池中线程数目：2，队列中等待执行的任务数目：0，已执行完的任务数目：7
+2022-03-08 13:37:24.869 19692-19692/com.atom.cam I/HLSDK_ThreadPoolManager: 线程池中线程数目：2，队列中等待执行的任务数目：0，已执行完的任务数目：8
+2022-03-08 13:37:24.869 19692-19692/com.atom.cam D/GroupConnectControl:  暂停 视频 mac=7CDDE901007A
+2022-03-08 13:37:24.870 19692-19692/com.atom.cam E/HLSDK_CameraCoreIml: stopLoopThread 停止视频数据轮询线程
+2022-03-08 13:37:24.870 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: stopCheckConnection stop watching end,mac=7CDDE901007A
+2022-03-08 13:37:24.870 19692-19692/com.atom.cam D/GroupConnectControl:  暂停 视频 mac=7CDDE9028FA9
+2022-03-08 13:37:24.870 19692-19692/com.atom.cam E/HLSDK_CameraCoreIml: stopLoopThread 停止视频数据轮询线程
+2022-03-08 13:37:24.870 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: stopCheckConnection stop watching end,mac=7CDDE9028FA9
+2022-03-08 13:37:24.870 19692-19692/com.atom.cam D/GroupConnectControl:  暂停 视频 mac=7CDDE9010618
+2022-03-08 13:37:24.870 19692-19692/com.atom.cam E/HLSDK_CameraCoreIml: stopLoopThread 停止视频数据轮询线程
+2022-03-08 13:37:24.870 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: stopCheckConnection stop watching end,mac=7CDDE9010618
+2022-03-08 13:37:24.870 19692-20537/com.atom.cam W/HLSDK_FileManager: findFiles 删除 7CDDE9010618_1646643751073.jpg
+2022-03-08 13:37:24.907 19692-20266/com.atom.cam E/HLSDK_CameraCoreIml: 停止
+2022-03-08 13:37:24.907 19692-20266/com.atom.cam E/HLSDK_CameraCoreIml: resetDataQueue 初始化数据-》
+2022-03-08 13:37:24.952 19692-19701/com.atom.cam W/System: A resource failed to call close. 
+2022-03-08 13:37:24.953 19692-19701/com.atom.cam I/chatty: uid=11782(com.atom.cam) FinalizerDaemon identical 4 lines
+2022-03-08 13:37:24.953 19692-19701/com.atom.cam W/System: A resource failed to call close. 
+2022-03-08 13:37:24.959 19692-20534/com.atom.cam I/ACodec:  [OMX.google.aac.encoder] Now uninitialized
+2022-03-08 13:37:24.959 19692-20534/com.atom.cam I/ACodec:  [] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:37:24.959 19692-20534/com.atom.cam I/MediaCodec: Codec shutdown complete
+2022-03-08 13:37:24.998 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 不可见 = -1
+2022-03-08 13:37:24.998 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 不可见 gotoSingleFragmentPosition=-1
+2022-03-08 13:37:25.001 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:25.001 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载成功 <<<--- 2
+2022-03-08 13:37:25.002 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 不可见 = -1
+2022-03-08 13:37:25.002 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 不可见 gotoSingleFragmentPosition=-1
+2022-03-08 13:37:25.008 19692-19692/com.atom.cam W/HLSDK_LastThumbnailManager: [mac] 首选图片不存在,加载默认图  0
+2022-03-08 13:37:25.009 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 不可见 = -1
+2022-03-08 13:37:25.009 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 不可见 gotoSingleFragmentPosition=-1
+2022-03-08 13:37:25.027 19692-20434/com.atom.cam D/HL::AndroidMediaCodec: AMediaCodec_delete = 0x7e566452a0
+2022-03-08 13:37:25.028 19692-20425/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Executing->Idle
+2022-03-08 13:37:25.044 19692-20425/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Idle->Loaded
+2022-03-08 13:37:25.044 19692-20425/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Loaded
+2022-03-08 13:37:25.044 19692-20425/com.atom.cam I/ACodec:  [OMX.qcom.video.decoder.hevc] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:37:25.044 19692-20424/com.atom.cam D/SurfaceUtils: disconnecting from surface 0x7e54629010, reason disconnectFromSurface
+2022-03-08 13:37:25.046 19692-20425/com.atom.cam I/SmartFittingClass: ShutDownSmartFitting!!
+2022-03-08 13:37:25.046 19692-20425/com.atom.cam I/SmartFittingClass: SmartFittingManagerServiceProxy::Deinit
+2022-03-08 13:37:25.047 19692-20425/com.atom.cam I/SmartFittingClass: Destroy SmartFittingListener
+2022-03-08 13:37:25.047 19692-20425/com.atom.cam I/SmartFittingClass: Destroy ~SmartFittingManagerServiceProxy::EventHandler
+2022-03-08 13:37:25.047 19692-20425/com.atom.cam I/SmartFittingClass: Destroy SmartFitting!!
+2022-03-08 13:37:25.047 19692-20425/com.atom.cam I/SmartFittingClass: Destroy SmartFittingManagerServiceProxy!!
+2022-03-08 13:37:25.052 19692-20425/com.atom.cam I/ACodec:  [OMX.qcom.video.decoder.hevc] Now uninitialized
+2022-03-08 13:37:25.052 19692-20425/com.atom.cam I/ACodec:  [] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:37:25.052 19692-20424/com.atom.cam I/MediaCodec: Codec shutdown complete
+2022-03-08 13:37:25.059 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:25.061 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 不可见 = -1
+2022-03-08 13:37:25.061 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 不可见 gotoSingleFragmentPosition=-1
+2022-03-08 13:37:25.065 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:25.066 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载成功 <<<--- 2
+2022-03-08 13:37:25.067 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 不可见 = -1
+2022-03-08 13:37:25.067 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 不可见 gotoSingleFragmentPosition=-1
+2022-03-08 13:37:25.071 19692-20389/com.atom.cam D/HL::AndroidMediaCodec: AMediaCodec_delete = 0x7e604e9d80
+2022-03-08 13:37:25.071 19692-20383/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Executing->Idle
+2022-03-08 13:37:25.096 19692-20383/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Idle->Loaded
+2022-03-08 13:37:25.097 19692-20383/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Loaded
+2022-03-08 13:37:25.097 19692-20383/com.atom.cam I/ACodec:  [OMX.qcom.video.decoder.hevc] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:37:25.097 19692-20382/com.atom.cam D/SurfaceUtils: disconnecting from surface 0x7e56764010, reason disconnectFromSurface
+2022-03-08 13:37:25.099 19692-20383/com.atom.cam I/SmartFittingClass: ShutDownSmartFitting!!
+2022-03-08 13:37:25.100 19692-20383/com.atom.cam I/SmartFittingClass: SmartFittingManagerServiceProxy::Deinit
+2022-03-08 13:37:25.101 19692-20383/com.atom.cam I/SmartFittingClass: Destroy SmartFitting!!
+2022-03-08 13:37:25.105 19692-20383/com.atom.cam I/ACodec:  [OMX.qcom.video.decoder.hevc] Now uninitialized
+2022-03-08 13:37:25.105 19692-20383/com.atom.cam I/ACodec:  [] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:37:25.105 19692-20382/com.atom.cam I/MediaCodec: Codec shutdown complete
+2022-03-08 13:37:25.111 19692-19706/com.atom.cam I/SmartFittingClass: Destroy ~SmartFittingManagerServiceProxy::EventHandler
+2022-03-08 13:37:25.111 19692-19706/com.atom.cam I/SmartFittingClass: Destroy SmartFittingManagerServiceProxy!!
+2022-03-08 13:37:25.111 19692-19706/com.atom.cam I/SmartFittingClass: Destroy SmartFittingListener
+2022-03-08 13:37:25.112 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:25.115 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: ViewHolder setView macATOM Cam１
+2022-03-08 13:37:25.115 19692-19692/com.atom.cam D/MultiScreenCameraAdapter:  播放按钮的状态=false
+2022-03-08 13:37:25.115 19692-19692/com.atom.cam D/MultiScreenCameraAdapter:  声音按钮的状态=2
+2022-03-08 13:37:25.120 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: layoutParams.height =  290 具体 UtilsDevice.getScreenWidth()= 1080  UtilsDevice.getScreenHeight() = 2076
+2022-03-08 13:37:25.120 19692-19692/com.atom.cam D/QQQQQQ: playVideoView.getWidth()= -1  playVideoView.getHeight()=290
+2022-03-08 13:37:25.120 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: 当前 main hasReceiveIFrame true
+2022-03-08 13:37:25.120 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: setViewStatus: status=6
+2022-03-08 13:37:25.120 19692-19692/com.atom.cam I/MultiScreenCameraAdapter: ============================setConnectAnimation=====isStartAnimation=true
+2022-03-08 13:37:25.120 19692-19692/com.atom.cam I/MultiScreenCameraAdapter: ===========================connectAnimation_start
+2022-03-08 13:37:25.121 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:25.122 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: ViewHolder setView macATOM Cam Sw
+2022-03-08 13:37:25.123 19692-19692/com.atom.cam D/MultiScreenCameraAdapter:  播放按钮的状态=false
+2022-03-08 13:37:25.123 19692-19692/com.atom.cam D/MultiScreenCameraAdapter:  声音按钮的状态=2
+2022-03-08 13:37:25.130 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: layoutParams.height =  290 具体 UtilsDevice.getScreenWidth()= 1080  UtilsDevice.getScreenHeight() = 2076
+2022-03-08 13:37:25.130 19692-19692/com.atom.cam D/QQQQQQ: playVideoView.getWidth()= -1  playVideoView.getHeight()=290
+2022-03-08 13:37:25.130 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: 当前 main hasReceiveIFrame false
+2022-03-08 13:37:25.131 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:25.132 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载成功 <<<--- 2
+2022-03-08 13:37:25.132 19692-19692/com.atom.cam D/MultiScreenCameraAdapter:  播放按钮的状态=false
+2022-03-08 13:37:25.133 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:25.133 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载成功 <<<--- 2
+2022-03-08 13:37:25.135 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:25.136 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 可见 = 0
+2022-03-08 13:37:25.136 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl onViewAttachedToWindow 可见 startPlay mac7CDDE901007A
+2022-03-08 13:37:25.136 19692-19692/com.atom.cam D/MultiScreenMVPBActivity: GroupConnectControl toStartPlay mac = 7CDDE901007A
+2022-03-08 13:37:25.136 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 点击连接前的摄像头正在播放数量-- 0
+2022-03-08 13:37:25.136 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 点击连接前的摄像头正在播放数量-- 0
+2022-03-08 13:37:25.136 19692-19692/com.atom.cam E/MultiScreenMVPBActivity: GroupConnectControl, 开始播放视频 mac= 7CDDE901007A 开始前 needPlay = 0
+2022-03-08 13:37:25.136 19692-19692/com.atom.cam I/HLSDK_DeviceCoreManager: ------------------deviceCoreHoldercom.hl.manager.DeviceCoreHolder@eae19dc
+2022-03-08 13:37:25.136 19692-19692/com.atom.cam D/GroupConnectControl:  开始 视频 mac=7CDDE901007A
+2022-03-08 13:37:25.137 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:25.139 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: startCheckConnection  start,mac=7CDDE901007A
+2022-03-08 13:37:25.140 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: start watching end,mac=7CDDE901007A
+2022-03-08 13:37:25.140 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 点击连接前的摄像头正在播放数量-- 1
+2022-03-08 13:37:25.140 19692-19692/com.atom.cam E/MultiScreenMVPBActivity: GroupConnectControl, 开始播放视频 后 needPlay = 1
+2022-03-08 13:37:25.142 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:25.142 19692-20163/com.atom.cam E/HLSDK_CameraCoreIml: resetDataQueue 初始化数据-》
+2022-03-08 13:37:25.142 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:25.142 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360327
+2022-03-08 13:37:25.143 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载成功 <<<--- 2
+2022-03-08 13:37:25.143 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 可见 = 1
+2022-03-08 13:37:25.143 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl onViewAttachedToWindow 可见 startPlay mac7CDDE9028FA9
+2022-03-08 13:37:25.143 19692-19692/com.atom.cam D/MultiScreenMVPBActivity: GroupConnectControl toStartPlay mac = 7CDDE9028FA9
+2022-03-08 13:37:25.143 19692-19692/com.atom.cam E/MultiScreenMVPBActivity:  开始 toStartPlay 失败 !control.isConnect() mac=7CDDE9028FA9
+2022-03-08 13:37:25.144 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: ViewHolder setView macATOM V3Cyc
+2022-03-08 13:37:25.144 19692-19692/com.atom.cam D/MultiScreenCameraAdapter:  播放按钮的状态=false
+2022-03-08 13:37:25.144 19692-19692/com.atom.cam D/MultiScreenCameraAdapter:  声音按钮的状态=2
+2022-03-08 13:37:25.147 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: layoutParams.height =  290 具体 UtilsDevice.getScreenWidth()= 1080  UtilsDevice.getScreenHeight() = 2076
+2022-03-08 13:37:25.147 19692-19692/com.atom.cam D/QQQQQQ: playVideoView.getWidth()= -1  playVideoView.getHeight()=290
+2022-03-08 13:37:25.147 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: 当前 main hasReceiveIFrame true
+2022-03-08 13:37:25.147 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: setViewStatus: status=6
+2022-03-08 13:37:25.147 19692-19692/com.atom.cam I/MultiScreenCameraAdapter: ============================setConnectAnimation=====isStartAnimation=true
+2022-03-08 13:37:25.147 19692-19692/com.atom.cam I/MultiScreenCameraAdapter: ===========================connectAnimation_start
+2022-03-08 13:37:25.148 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:25.149 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: ViewHolder setView macATOM V3C66
+2022-03-08 13:37:25.149 19692-19692/com.atom.cam D/MultiScreenCameraAdapter:  播放按钮的状态=false
+2022-03-08 13:37:25.149 19692-19692/com.atom.cam D/MultiScreenCameraAdapter:  声音按钮的状态=2
+2022-03-08 13:37:25.152 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: layoutParams.height =  290 具体 UtilsDevice.getScreenWidth()= 1080  UtilsDevice.getScreenHeight() = 2076
+2022-03-08 13:37:25.152 19692-19692/com.atom.cam D/QQQQQQ: playVideoView.getWidth()= -1  playVideoView.getHeight()=290
+2022-03-08 13:37:25.152 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: 设备离线
+2022-03-08 13:37:25.153 19692-19692/com.atom.cam W/HLSDK_LastThumbnailManager: [mac] 首选图片不存在,加载默认图  0
+2022-03-08 13:37:25.154 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: setViewStatus: status=3
+2022-03-08 13:37:25.155 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:25.156 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 可见 = 2
+2022-03-08 13:37:25.156 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl onViewAttachedToWindow 可见 startPlay mac7CDDE9010618
+2022-03-08 13:37:25.156 19692-19692/com.atom.cam D/MultiScreenMVPBActivity: GroupConnectControl toStartPlay mac = 7CDDE9010618
+2022-03-08 13:37:25.156 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 点击连接前的摄像头正在播放数量-- 1
+2022-03-08 13:37:25.156 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 点击连接前的摄像头正在播放数量-- 1
+2022-03-08 13:37:25.156 19692-19692/com.atom.cam E/MultiScreenMVPBActivity: GroupConnectControl, 开始播放视频 mac= 7CDDE9010618 开始前 needPlay = 1
+2022-03-08 13:37:25.156 19692-19692/com.atom.cam I/HLSDK_DeviceCoreManager: ------------------deviceCoreHoldercom.hl.manager.DeviceCoreHolder@b098354
+2022-03-08 13:37:25.157 19692-19692/com.atom.cam D/GroupConnectControl:  开始 视频 mac=7CDDE9010618
+2022-03-08 13:37:25.157 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: startCheckConnection  start,mac=7CDDE9010618
+2022-03-08 13:37:25.157 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: start watching end,mac=7CDDE9010618
+2022-03-08 13:37:25.157 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 点击连接前的摄像头正在播放数量-- 2
+2022-03-08 13:37:25.157 19692-19692/com.atom.cam E/MultiScreenMVPBActivity: GroupConnectControl, 开始播放视频 后 needPlay = 2
+2022-03-08 13:37:25.159 19692-19692/com.atom.cam W/HLSDK_LastThumbnailManager: [mac] 首选图片不存在,加载默认图  0
+2022-03-08 13:37:25.159 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 可见 = 3
+2022-03-08 13:37:25.159 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl onViewAttachedToWindow 可见 startPlay mac7CDDE90105C4
+2022-03-08 13:37:25.160 19692-19692/com.atom.cam D/MultiScreenMVPBActivity: GroupConnectControl toStartPlay mac = 7CDDE90105C4
+2022-03-08 13:37:25.160 19692-19692/com.atom.cam E/MultiScreenMVPBActivity:  开始 toStartPlay 失败 !control.isConnect() mac=7CDDE90105C4
+2022-03-08 13:37:25.160 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: ViewHolder setView macATOM Cam Swing
+2022-03-08 13:37:25.160 19692-19692/com.atom.cam D/MultiScreenCameraAdapter:  播放按钮的状态=false
+2022-03-08 13:37:25.160 19692-19692/com.atom.cam D/MultiScreenCameraAdapter:  声音按钮的状态=2
+2022-03-08 13:37:25.163 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: layoutParams.height =  290 具体 UtilsDevice.getScreenWidth()= 1080  UtilsDevice.getScreenHeight() = 2076
+2022-03-08 13:37:25.163 19692-19692/com.atom.cam D/QQQQQQ: playVideoView.getWidth()= -1  playVideoView.getHeight()=290
+2022-03-08 13:37:25.163 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: 设备离线
+2022-03-08 13:37:25.164 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:25.165 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载成功 <<<--- 2
+2022-03-08 13:37:25.165 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: setViewStatus: status=3
+2022-03-08 13:37:25.166 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:25.167 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载成功 <<<--- 2
+2022-03-08 13:37:25.167 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 可见 = 4
+2022-03-08 13:37:25.167 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl onViewAttachedToWindow 可见 startPlay mac7CDDE9028F8F
+2022-03-08 13:37:25.167 19692-19692/com.atom.cam D/MultiScreenMVPBActivity: GroupConnectControl toStartPlay mac = 7CDDE9028F8F
+2022-03-08 13:37:25.167 19692-19692/com.atom.cam E/MultiScreenMVPBActivity:  开始 toStartPlay 失败 !control.isConnect() mac=7CDDE9028F8F
+2022-03-08 13:37:25.177 19692-20136/com.atom.cam E/HLSDK_CameraCoreIml: resetDataQueue 初始化数据-》
+2022-03-08 13:37:25.177 19692-20553/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:25.177 19692-20553/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->2624
+2022-03-08 13:37:25.183 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: Relayout returned: old=[0,0][2220,1080] new=[0,0][1080,2220] result=0x23 surface={valid=true 542616109056} changed=false
+2022-03-08 13:37:25.210 19692-19692/com.atom.cam D/initLanguage: HLMultiLanguages 监听到应用切换了语种，旧语种：ja_JP，新语种：en
+2022-03-08 13:37:25.217 19692-19807/com.atom.cam D/OpenGLRenderer: eglDestroySurface = 0x7e6084e080, 0x7e5670c000
+2022-03-08 13:37:25.217 19692-19807/com.atom.cam D/OpenGLRenderer: eglCreateWindowSurface = 0x7e6084e080, 0x7e5670c010
+2022-03-08 13:37:25.220 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.220 19692-19692/com.atom.cam I/chatty: uid=11782(com.atom.cam) identical 2 lines
+2022-03-08 13:37:25.220 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.222 19692-19692/com.atom.cam D/Java_com_hl_media_SimpleSmartImagePlayer_native_1create: 版本号->Release-1.2.14
+2022-03-08 13:37:25.225 19692-19692/com.atom.cam I/chatty: uid=11782(com.atom.cam) identical 3 lines
+2022-03-08 13:37:25.226 19692-19692/com.atom.cam D/Java_com_hl_media_SimpleSmartImagePlayer_native_1create: 版本号->Release-1.2.14
+2022-03-08 13:37:25.232 19692-19692/com.atom.cam D/ViewRootImpl@72d98a1[MultiScreenMVPBActivity]: dispatchAttachedToWindow
+2022-03-08 13:37:25.249 19692-20553/com.atom.cam E/HLSDK_CameraCoreIml: 收到第一个I帧-isRecordH265=true
+2022-03-08 13:37:25.249 19692-20553/com.atom.cam E/HLSDK_CameraCoreIml: SDK 打点 收到第一个I帧
+2022-03-08 13:37:25.249 19692-20553/com.atom.cam E/MultiScreenCameraAdapter:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2 mac=7CDDE9010618
+2022-03-08 13:37:25.251 19692-20553/com.atom.cam I/ACodec:  [] Now uninitialized
+2022-03-08 13:37:25.252 19692-20560/com.atom.cam I/ACodec: [] onAllocateComponent
+2022-03-08 13:37:25.254 19692-20560/com.atom.cam I/OMXClient: IOmx service obtained
+2022-03-08 13:37:25.259 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:25.259 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360328
+2022-03-08 13:37:25.259 19692-19692/com.atom.cam D/ViewRootImpl@72d98a1[MultiScreenMVPBActivity]: Relayout returned: old=[0,72][2076,1080] new=[438,972][642,1176] result=0x7 surface={valid=true 542581628928} changed=true
+2022-03-08 13:37:25.260 19692-19807/com.atom.cam D/OpenGLRenderer: eglCreateWindowSurface = 0x7e604df600, 0x7e5462a010
+2022-03-08 13:37:25.264 19692-19692/com.atom.cam E/ViewRootImpl: sendUserActionEvent() returned.
+2022-03-08 13:37:25.264 19692-19692/com.atom.cam D/ViewRootImpl@72d98a1[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2022-03-08 13:37:25.266 19692-20560/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Loaded
+2022-03-08 13:37:25.266 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@d0a188f[MultiScreenMVPBActivity]
+2022-03-08 13:37:25.266 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -855310
+2022-03-08 13:37:25.267 19692-20559/com.atom.cam D/SurfaceUtils: connecting to surface 0x7e5677f010, reason connectToSurface
+2022-03-08 13:37:25.267 19692-20559/com.atom.cam I/MediaCodec: [OMX.qcom.video.decoder.hevc] setting surface generation to 20164617
+2022-03-08 13:37:25.267 19692-20559/com.atom.cam D/SurfaceUtils: disconnecting from surface 0x7e5677f010, reason connectToSurface(reconnect)
+2022-03-08 13:37:25.267 19692-20559/com.atom.cam D/SurfaceUtils: connecting to surface 0x7e5677f010, reason connectToSurface(reconnect)
+2022-03-08 13:37:25.267 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@d0a188f[MultiScreenMVPBActivity]
+2022-03-08 13:37:25.267 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -855310
+2022-03-08 13:37:25.267 19692-19692/com.atom.cam V/InputMethodManager: Starting input: tba=com.atom.cam ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2022-03-08 13:37:25.267 19692-19692/com.atom.cam D/InputMethodManager: startInputInner - Id : 0
+2022-03-08 13:37:25.267 19692-19692/com.atom.cam I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2022-03-08 13:37:25.268 19692-20560/com.atom.cam W/DirectStreamingProxy: app-pid not found. use getpid(). pid = 19692
+2022-03-08 13:37:25.268 19692-20560/com.atom.cam D/DirectStreamingProxy: pid = 19692
+2022-03-08 13:37:25.269 19692-20560/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] OMX_QCOM_FramePacking_OnlyOneCompleteFrame is setting
+2022-03-08 13:37:25.269 19692-20560/com.atom.cam I/ACodec: Success to set FramePackingMode
+2022-03-08 13:37:25.270 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=77
+2022-03-08 13:37:25.270 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=84
+2022-03-08 13:37:25.270 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_RESIZED: frame=Rect(0, 0 - 2220, 1080) ci=Rect(0, 0 - 144, 0) vi=Rect(0, 0 - 144, 0) or=2
+2022-03-08 13:37:25.276 19692-20560/com.atom.cam I/SmartFittingClass: Create SmartFitting Version 2.0
+2022-03-08 13:37:25.277 19692-20560/com.atom.cam I/SmartFittingClass: Init, [State:UNINITIALIZED] pid: 19692
+2022-03-08 13:37:25.280 19692-19692/com.atom.cam D/initLanguage: HLMultiLanguages 监听到应用切换了语种，旧语种：ja_JP，新语种：en
+2022-03-08 13:37:25.280 19692-20560/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Loaded->Idle
+2022-03-08 13:37:25.285 19692-20567/com.atom.cam I/SmartFittingClass: InitialCheck()
+2022-03-08 13:37:25.285 19692-20567/com.atom.cam I/SmartFittingClass: Create SmartFittingManagerServiceProxy!!
+2022-03-08 13:37:25.285 19692-20567/com.atom.cam I/SmartFittingClass: SmartFittingManagerServiceProxy::init
+2022-03-08 13:37:25.285 19692-20567/com.atom.cam I/SmartFittingClass: Create SmartFittingManagerServiceProxy::EventHandler
+2022-03-08 13:37:25.285 19692-20567/com.atom.cam I/SmartFittingClass: SmartFittingManagerServiceProxy::onAddSmartFittingListener pid: 19692
+2022-03-08 13:37:25.285 19692-20567/com.atom.cam I/SmartFittingClass: Create SmartFittingListener
+2022-03-08 13:37:25.294 19692-20560/com.atom.cam D/SurfaceUtils: set up nativeWindow 0x7e5677f010 for 1000x1000, color 0x7fa30c06, rotation 0, usage 0x20402900
+2022-03-08 13:37:25.296 19692-20560/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] configureOutputBuffersFromNativeWindow setBufferCount : 23, minUndequeuedBuffers : 5
+2022-03-08 13:37:25.301 19692-20567/com.atom.cam I/SmartFittingClass: InitialCheck, WhiteListStatus returned from CodecSolution : 0
+2022-03-08 13:37:25.301 19692-20567/com.atom.cam I/SmartFittingClass: InitialCheck, [State:FINISHED] SmartFitting has not been activated by App. Shut Down SmartFitting.
+2022-03-08 13:37:25.302 19692-19692/com.atom.cam D/initLanguage: HLMultiLanguages 监听到应用切换了语种，旧语种：ja_JP，新语种：en
+2022-03-08 13:37:25.304 19692-20559/com.atom.cam I/MediaCodec: setCodecState state : 0
+2022-03-08 13:37:25.304 19692-20560/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Idle->Executing
+2022-03-08 13:37:25.304 19692-20560/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Executing
+2022-03-08 13:37:25.306 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 1080, 2220) ci=Rect(0, 0 - 0, 144) vi=Rect(0, 0 - 0, 144) or=1
+2022-03-08 13:37:25.307 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 1080, 2220) ci=Rect(0, 0 - 0, 144) vi=Rect(0, 0 - 0, 144) or=1
+2022-03-08 13:37:25.307 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.307 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.321 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: Relayout returned: old=[0,0][1080,2220] new=[0,0][1080,2220] result=0x1 surface={valid=true 542616109056} changed=false
+2022-03-08 13:37:25.323 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: 监听绘制 获取到第一帧  hasReceiveIFrame = true
+2022-03-08 13:37:25.335 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载成功 <<<--- 2
+2022-03-08 13:37:25.335 19692-20560/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:25.335 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载成功 <<<--- 2
+2022-03-08 13:37:25.335 19692-19692/com.atom.cam E/GroupConnectControl:  开始 视频 playConnectCreateSuccessCallback mac=7CDDE901007A
+2022-03-08 13:37:25.336 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载成功 <<<--- 2
+2022-03-08 13:37:25.336 19692-19692/com.atom.cam E/GroupConnectControl:  开始 视频 playConnectCreateSuccessCallback mac=7CDDE9010618
+2022-03-08 13:37:25.336 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 1080, 2220) ci=Rect(0, 72 - 0, 144) vi=Rect(0, 72 - 0, 144) or=1
+2022-03-08 13:37:25.336 19692-19692/com.atom.cam D/GroupConnectControl:  开始 视频 successCallBack mac=7CDDE9010618
+2022-03-08 13:37:25.336 19692-19692/com.atom.cam D/ViewRootImpl@72d98a1[MultiScreenMVPBActivity]: MSG_RESIZED_REPORT: frame=Rect(438, 972 - 642, 1176) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=1
+2022-03-08 13:37:25.337 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.337 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.349 19692-20560/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now handling output port settings change
+2022-03-08 13:37:25.355 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:25.355 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360329
+2022-03-08 13:37:25.356 19692-20560/com.atom.cam D/SurfaceUtils: set up nativeWindow 0x7e5677f010 for 640x360, color 0x7fa30c06, rotation 0, usage 0x20402900
+2022-03-08 13:37:25.357 19692-20560/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] configureOutputBuffersFromNativeWindow setBufferCount : 11, minUndequeuedBuffers : 5
+2022-03-08 13:37:25.361 19692-20560/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:25.362 19692-20560/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Executing
+2022-03-08 13:37:25.365 19692-19692/com.atom.cam D/ViewRootImpl@72d98a1[MultiScreenMVPBActivity]: Relayout returned: old=[438,972][642,1176] new=[438,972][642,1176] result=0x1 surface={valid=true 542581628928} changed=false
+2022-03-08 13:37:25.366 19692-19807/com.atom.cam D/OpenGLRenderer: eglDestroySurface = 0x7e604df600, 0x7e5462a000
+2022-03-08 13:37:25.366 19692-20560/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:25.366 19692-19807/com.atom.cam D/OpenGLRenderer: eglCreateWindowSurface = 0x7e604df600, 0x7e5462a010
+2022-03-08 13:37:25.370 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.370 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.370 19692-20560/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] OMX_EventPortSettingsChanged 0x7f000062
+2022-03-08 13:37:25.371 19692-19692/com.atom.cam E/ViewRootImpl: sendUserActionEvent() returned.
+2022-03-08 13:37:25.378 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.378 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.395 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.395 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.396 19692-20565/com.atom.cam D/HL::AndroidMediaCodec: format changed to: color-range: int32(1), color-standard: int32(1), color-transfer: int32(3), mime: string(video/raw), stride: int32(640), slice-height: int32(384), color-format: int32(2141391878), crop: Rect(0, 0, 639, 359), android._dataspace: int32(146866176), hdr-static-info: data, width: int32(640), height: int32(360)}
+2022-03-08 13:37:25.411 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.411 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.427 19692-20559/com.atom.cam I/MediaCodec: setCodecState state : 1
+2022-03-08 13:37:25.428 19692-20560/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:25.428 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.428 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.430 19692-19807/com.atom.cam W/OpenGLRenderer: Unsupported Gamma: 146866176
+2022-03-08 13:37:25.430 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: setViewStatus: status=5
+2022-03-08 13:37:25.430 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: 一屏多画 收到第一个I帧
+2022-03-08 13:37:25.430 19692-19692/com.atom.cam D/MultiScreenCameraAdapter:  播放按钮的状态=true
+2022-03-08 13:37:25.431 19692-19692/com.atom.cam I/MultiScreenCameraAdapter: ============================setConnectAnimation=====isStartAnimation=false
+2022-03-08 13:37:25.431 19692-19692/com.atom.cam D/HLSDK_AudioDataProcess stop: begin stop audio,isPlayAudioData=false
+2022-03-08 13:37:25.445 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.445 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.452 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:25.452 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360330
+2022-03-08 13:37:25.459 19692-20560/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:25.462 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.478 19692-19692/com.atom.cam I/chatty: uid=11782(com.atom.cam) identical 2 lines
+2022-03-08 13:37:25.478 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.491 19692-20560/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:25.495 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.512 19692-19692/com.atom.cam I/chatty: uid=11782(com.atom.cam) identical 2 lines
+2022-03-08 13:37:25.512 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.523 19692-20560/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:25.529 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.529 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.545 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.562 19692-19692/com.atom.cam I/chatty: uid=11782(com.atom.cam) identical 2 lines
+2022-03-08 13:37:25.562 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.568 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:25.568 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360331
+2022-03-08 13:37:25.579 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.579 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.587 19692-20560/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:25.595 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.595 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:25.650 19692-20560/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:25.654 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:25.654 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360332
+2022-03-08 13:37:25.750 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:25.750 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360333
+2022-03-08 13:37:25.856 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:25.856 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360334
+2022-03-08 13:37:25.922 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:25.922 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360335
+2022-03-08 13:37:25.987 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:25.987 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360336
+2022-03-08 13:37:26.063 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:26.063 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360337
+2022-03-08 13:37:26.170 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:26.170 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360338
+2022-03-08 13:37:26.256 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:26.256 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360339
+2022-03-08 13:37:26.330 19692-20291/com.atom.cam I/MediaCodec: setCodecState state : 0
+2022-03-08 13:37:26.362 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:26.362 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360340
+2022-03-08 13:37:26.448 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:26.448 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360341
+2022-03-08 13:37:26.554 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:26.554 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360342
+2022-03-08 13:37:26.650 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:26.650 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360343
+2022-03-08 13:37:26.767 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:26.767 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360344
+2022-03-08 13:37:26.863 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:26.863 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360345
+2022-03-08 13:37:26.961 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:26.961 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360346
+2022-03-08 13:37:27.048 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:27.048 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360347
+2022-03-08 13:37:27.155 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:27.156 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360348
+2022-03-08 13:37:27.273 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:27.273 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360349
+2022-03-08 13:37:27.351 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:27.351 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360350
+2022-03-08 13:37:27.457 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:27.457 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360351
+2022-03-08 13:37:27.553 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:27.553 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360352
+2022-03-08 13:37:27.649 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:27.649 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360353
+2022-03-08 13:37:27.757 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:27.757 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360354
+2022-03-08 13:37:27.854 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:27.854 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360355
+2022-03-08 13:37:27.951 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:27.952 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360356
+2022-03-08 13:37:28.070 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:28.070 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360357
+2022-03-08 13:37:28.157 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:28.157 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360358
+2022-03-08 13:37:28.265 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:28.265 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360359
+2022-03-08 13:37:28.362 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:28.362 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360360
+2022-03-08 13:37:28.469 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 收到第一个I帧-isRecordH265=true
+2022-03-08 13:37:28.469 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: SDK 打点 收到第一个I帧
+2022-03-08 13:37:28.470 19692-20551/com.atom.cam E/MultiScreenCameraAdapter:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2 mac=7CDDE901007A
+2022-03-08 13:37:28.475 19692-19692/com.atom.cam D/GroupConnectControl:  开始 视频 successCallBack mac=7CDDE901007A
+2022-03-08 13:37:28.477 19692-20551/com.atom.cam I/ACodec:  [] Now uninitialized
+2022-03-08 13:37:28.492 19692-20580/com.atom.cam I/ACodec: [] onAllocateComponent
+2022-03-08 13:37:28.495 19692-20580/com.atom.cam I/OMXClient: IOmx service obtained
+2022-03-08 13:37:28.514 19692-20580/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Loaded
+2022-03-08 13:37:28.516 19692-20579/com.atom.cam D/SurfaceUtils: connecting to surface 0x7e56764010, reason connectToSurface
+2022-03-08 13:37:28.516 19692-20579/com.atom.cam I/MediaCodec: [OMX.qcom.video.decoder.hevc] setting surface generation to 20164618
+2022-03-08 13:37:28.516 19692-20579/com.atom.cam D/SurfaceUtils: disconnecting from surface 0x7e56764010, reason connectToSurface(reconnect)
+2022-03-08 13:37:28.516 19692-20579/com.atom.cam D/SurfaceUtils: connecting to surface 0x7e56764010, reason connectToSurface(reconnect)
+2022-03-08 13:37:28.518 19692-20580/com.atom.cam W/DirectStreamingProxy: app-pid not found. use getpid(). pid = 19692
+2022-03-08 13:37:28.518 19692-20580/com.atom.cam D/DirectStreamingProxy: pid = 19692
+2022-03-08 13:37:28.520 19692-20580/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] OMX_QCOM_FramePacking_OnlyOneCompleteFrame is setting
+2022-03-08 13:37:28.520 19692-20580/com.atom.cam I/ACodec: Success to set FramePackingMode
+2022-03-08 13:37:28.532 19692-20580/com.atom.cam I/SmartFittingClass: Create SmartFitting Version 2.0
+2022-03-08 13:37:28.534 19692-20580/com.atom.cam I/SmartFittingClass: Init, [State:UNINITIALIZED] pid: 19692
+2022-03-08 13:37:28.546 19692-20580/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Loaded->Idle
+2022-03-08 13:37:28.546 19692-20586/com.atom.cam I/SmartFittingClass: InitialCheck()
+2022-03-08 13:37:28.546 19692-20586/com.atom.cam I/SmartFittingClass: Create SmartFittingManagerServiceProxy!!
+2022-03-08 13:37:28.546 19692-20586/com.atom.cam I/SmartFittingClass: SmartFittingManagerServiceProxy::init
+2022-03-08 13:37:28.547 19692-20586/com.atom.cam I/SmartFittingClass: Create SmartFittingManagerServiceProxy::EventHandler
+2022-03-08 13:37:28.547 19692-20586/com.atom.cam I/SmartFittingClass: SmartFittingManagerServiceProxy::onAddSmartFittingListener pid: 19692
+2022-03-08 13:37:28.547 19692-20586/com.atom.cam I/SmartFittingClass: Create SmartFittingListener
+2022-03-08 13:37:28.571 19692-20586/com.atom.cam I/SmartFittingClass: InitialCheck, WhiteListStatus returned from CodecSolution : 0
+2022-03-08 13:37:28.571 19692-20586/com.atom.cam I/SmartFittingClass: InitialCheck, [State:FINISHED] SmartFitting has not been activated by App. Shut Down SmartFitting.
+2022-03-08 13:37:28.597 19692-20580/com.atom.cam I/ACodec: setupNativeWindowSizeFormatAndUsage - gralloc_usage_priv_uncached off
+2022-03-08 13:37:28.597 19692-20580/com.atom.cam D/SurfaceUtils: set up nativeWindow 0x7e56764010 for 1000x1000, color 0x7fa30c06, rotation 0, usage 0x402900
+2022-03-08 13:37:28.599 19692-20580/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] configureOutputBuffersFromNativeWindow setBufferCount : 23, minUndequeuedBuffers : 5
+2022-03-08 13:37:28.608 19692-20580/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Idle->Executing
+2022-03-08 13:37:28.609 19692-20579/com.atom.cam I/MediaCodec: setCodecState state : 0
+2022-03-08 13:37:28.610 19692-20580/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Executing
+2022-03-08 13:37:28.642 19692-20580/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:28.655 19692-20551/com.atom.cam E/MultiScreenCameraAdapter:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2 mac=7CDDE901007A
+2022-03-08 13:37:28.668 19692-20580/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now handling output port settings change
+2022-03-08 13:37:28.674 19692-20580/com.atom.cam I/ACodec: setupNativeWindowSizeFormatAndUsage - gralloc_usage_priv_uncached off
+2022-03-08 13:37:28.674 19692-20580/com.atom.cam D/SurfaceUtils: set up nativeWindow 0x7e56764010 for 640x360, color 0x7fa30c06, rotation 0, usage 0x402900
+2022-03-08 13:37:28.677 19692-20580/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] configureOutputBuffersFromNativeWindow setBufferCount : 11, minUndequeuedBuffers : 5
+2022-03-08 13:37:28.682 19692-20580/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:28.684 19692-20580/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:28.685 19692-20580/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Executing
+2022-03-08 13:37:28.694 19692-20580/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] OMX_EventPortSettingsChanged 0x7f000062
+2022-03-08 13:37:28.701 19692-20551/com.atom.cam E/MultiScreenCameraAdapter:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2 mac=7CDDE901007A
+2022-03-08 13:37:28.706 19692-20580/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:28.737 19692-20584/com.atom.cam D/HL::AndroidMediaCodec: format changed to: color-range: int32(1), color-standard: int32(1), color-transfer: int32(3), mime: string(video/raw), stride: int32(640), slice-height: int32(384), color-format: int32(2141391878), crop: Rect(0, 0, 639, 359), android._dataspace: int32(146866176), hdr-static-info: data, width: int32(640), height: int32(360)}
+2022-03-08 13:37:28.757 19692-20551/com.atom.cam E/MultiScreenCameraAdapter:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2 mac=7CDDE901007A
+2022-03-08 13:37:28.769 19692-20580/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:28.771 19692-20579/com.atom.cam I/MediaCodec: setCodecState state : 1
+2022-03-08 13:37:28.774 19692-20580/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:28.789 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: 监听绘制 获取到第一帧  hasReceiveIFrame = true
+2022-03-08 13:37:28.790 19692-19807/com.atom.cam W/OpenGLRenderer: Unsupported Gamma: 146866176
+2022-03-08 13:37:28.826 19692-20580/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:28.876 19692-20580/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:28.889 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: setViewStatus: status=5
+2022-03-08 13:37:28.890 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: 一屏多画 收到第一个I帧
+2022-03-08 13:37:28.890 19692-19692/com.atom.cam D/MultiScreenCameraAdapter:  播放按钮的状态=true
+2022-03-08 13:37:28.890 19692-19692/com.atom.cam I/MultiScreenCameraAdapter: ============================setConnectAnimation=====isStartAnimation=false
+2022-03-08 13:37:28.890 19692-19692/com.atom.cam D/HLSDK_AudioDataProcess stop: begin stop audio,isPlayAudioData=false
+2022-03-08 13:37:29.035 19692-20580/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:33.464 19692-19692/com.atom.cam D/ViewRootImpl@72d98a1[MultiScreenMVPBActivity]: ViewPostIme key 0
+2022-03-08 13:37:33.525 19692-19692/com.atom.cam D/ViewRootImpl@72d98a1[MultiScreenMVPBActivity]: ViewPostIme key 1
+2022-03-08 13:37:33.528 19692-19807/com.atom.cam D/OpenGLRenderer: eglDestroySurface = 0x7e604df600, 0x7e5462a000
+2022-03-08 13:37:33.528 19692-19692/com.atom.cam D/ViewRootImpl@72d98a1[MultiScreenMVPBActivity]: dispatchDetachedFromWindow
+2022-03-08 13:37:33.529 19692-19692/com.atom.cam D/ViewRootImpl@72d98a1[MultiScreenMVPBActivity]: Surface release. android.view.ViewRootImpl.doDie:7998 android.view.ViewRootImpl.die:7966 android.view.WindowManagerGlobal.removeViewLocked:497 android.view.WindowManagerGlobal.removeView:435 android.view.WindowManagerImpl.removeViewImmediate:124 android.app.Dialog.dismissDialog:518 android.app.Dialog.dismiss:501 android.app.Dialog.cancel:1462 
+2022-03-08 13:37:33.538 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=79
+2022-03-08 13:37:33.539 19692-19692/com.atom.cam W/InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+2022-03-08 13:37:33.541 19692-19692/com.atom.cam E/ViewRootImpl: sendUserActionEvent() returned.
+2022-03-08 13:37:33.541 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2022-03-08 13:37:33.542 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@f25608b[MultiScreenMVPBActivity]
+2022-03-08 13:37:33.542 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -16777216
+2022-03-08 13:37:33.543 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@f25608b[MultiScreenMVPBActivity]
+2022-03-08 13:37:33.543 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -16777216
+2022-03-08 13:37:33.543 19692-19692/com.atom.cam V/InputMethodManager: Starting input: tba=com.atom.cam ic=null mNaviBarColor -16777216 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2022-03-08 13:37:33.543 19692-19692/com.atom.cam D/InputMethodManager: startInputInner - Id : 0
+2022-03-08 13:37:33.543 19692-19692/com.atom.cam I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2022-03-08 13:37:33.546 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=131
+2022-03-08 13:37:33.546 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=77
+2022-03-08 13:37:35.117 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 0
+2022-03-08 13:37:35.148 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 1
+2022-03-08 13:37:35.943 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 0
+2022-03-08 13:37:36.007 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 1
+2022-03-08 13:37:36.009 19692-19692/com.atom.cam D/MultiScreenCameraAdapter:  gotoSingleFragmentPosition=0
+2022-03-08 13:37:36.009 19692-19692/com.atom.cam D/MultiScreenMVPBActivity: GroupConnectControl 全屏播放
+2022-03-08 13:37:36.022 19692-19692/com.atom.cam I/HLSDK_ThreadPoolManager: 线程池中线程数目：2，队列中等待执行的任务数目：0，已执行完的任务数目：10
+2022-03-08 13:37:36.024 19692-20537/com.atom.cam W/HLSDK_FileManager: findFiles 删除 7CDDE901007A_1646647770509.jpg
+2022-03-08 13:37:36.032 19692-19692/com.atom.cam I/HLSDK_ThreadPoolManager: 线程池中线程数目：2，队列中等待执行的任务数目：0，已执行完的任务数目：10
+2022-03-08 13:37:36.032 19692-19692/com.atom.cam D/GroupConnectControl:  暂停 视频 mac=7CDDE901007A
+2022-03-08 13:37:36.032 19692-19692/com.atom.cam E/HLSDK_CameraCoreIml: stopLoopThread 停止视频数据轮询线程
+2022-03-08 13:37:36.032 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: stopCheckConnection stop watching end,mac=7CDDE901007A
+2022-03-08 13:37:36.032 19692-19692/com.atom.cam D/GroupConnectControl:  暂停 视频 mac=7CDDE9028FA9
+2022-03-08 13:37:36.032 19692-19692/com.atom.cam E/HLSDK_CameraCoreIml: stopLoopThread 停止视频数据轮询线程
+2022-03-08 13:37:36.032 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: stopCheckConnection stop watching end,mac=7CDDE9028FA9
+2022-03-08 13:37:36.032 19692-19692/com.atom.cam D/GroupConnectControl:  暂停 视频 mac=7CDDE9010618
+2022-03-08 13:37:36.032 19692-19692/com.atom.cam E/HLSDK_CameraCoreIml: stopLoopThread 停止视频数据轮询线程
+2022-03-08 13:37:36.032 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: stopCheckConnection stop watching end,mac=7CDDE9010618
+2022-03-08 13:37:36.033 19692-20538/com.atom.cam W/HLSDK_FileManager: findFiles 删除 7CDDE9010618_1646717844869.jpg
+2022-03-08 13:37:36.041 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: 停止
+2022-03-08 13:37:36.041 19692-20551/com.atom.cam E/HLSDK_CameraCoreIml: resetDataQueue 初始化数据-》
+2022-03-08 13:37:36.041 19692-19692/com.atom.cam I/HLSDK_ThreadPoolManager: 线程池中线程数目：2，队列中等待执行的任务数目：0，已执行完的任务数目：11
+2022-03-08 13:37:36.043 19692-20537/com.atom.cam W/HLSDK_FileManager: findFiles 删除 7CDDE901007A_1646717844859.jpg
+2022-03-08 13:37:36.049 19692-19692/com.atom.cam I/HLSDK_ThreadPoolManager: 线程池中线程数目：2，队列中等待执行的任务数目：0，已执行完的任务数目：12
+2022-03-08 13:37:36.049 19692-19692/com.atom.cam D/GroupConnectControl:  暂停 视频 mac=7CDDE901007A
+2022-03-08 13:37:36.049 19692-19692/com.atom.cam E/HLSDK_CameraCoreIml: stopLoopThread 停止视频数据轮询线程
+2022-03-08 13:37:36.049 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: stopCheckConnection stop watching end,mac=7CDDE901007A
+2022-03-08 13:37:36.049 19692-19692/com.atom.cam D/GroupConnectControl:  暂停 视频 mac=7CDDE9028FA9
+2022-03-08 13:37:36.049 19692-19692/com.atom.cam E/HLSDK_CameraCoreIml: stopLoopThread 停止视频数据轮询线程
+2022-03-08 13:37:36.049 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: stopCheckConnection stop watching end,mac=7CDDE9028FA9
+2022-03-08 13:37:36.049 19692-19692/com.atom.cam D/GroupConnectControl:  暂停 视频 mac=7CDDE9010618
+2022-03-08 13:37:36.049 19692-19692/com.atom.cam E/HLSDK_CameraCoreIml: stopLoopThread 停止视频数据轮询线程
+2022-03-08 13:37:36.049 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: stopCheckConnection stop watching end,mac=7CDDE9010618
+2022-03-08 13:37:36.050 19692-20538/com.atom.cam W/HLSDK_FileManager: findFiles 删除 7CDDE9010618_1646717844846.jpg
+2022-03-08 13:37:36.053 19692-20553/com.atom.cam E/HLSDK_CameraCoreIml: 停止
+2022-03-08 13:37:36.053 19692-20553/com.atom.cam E/HLSDK_CameraCoreIml: resetDataQueue 初始化数据-》
+2022-03-08 13:37:36.130 19692-19692/com.atom.cam D/MultiScreenMVPBActivity: GroupConnectControl onClickFull start mac = 7CDDE901007A
+2022-03-08 13:37:36.130 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 点击连接前的摄像头正在播放数量-- 0
+2022-03-08 13:37:36.130 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 点击连接前的摄像头正在播放数量-- 0
+2022-03-08 13:37:36.130 19692-19692/com.atom.cam E/MultiScreenMVPBActivity: GroupConnectControl, 开始播放视频 mac= 7CDDE901007A 开始前 needPlay = 0
+2022-03-08 13:37:36.130 19692-19692/com.atom.cam I/HLSDK_DeviceCoreManager: ------------------deviceCoreHoldercom.hl.manager.DeviceCoreHolder@eae19dc
+2022-03-08 13:37:36.130 19692-19692/com.atom.cam D/GroupConnectControl:  开始 视频 mac=7CDDE901007A
+2022-03-08 13:37:36.131 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:36.133 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: startCheckConnection  start,mac=7CDDE901007A
+2022-03-08 13:37:36.134 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: start watching end,mac=7CDDE901007A
+2022-03-08 13:37:36.134 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 点击连接前的摄像头正在播放数量-- 1
+2022-03-08 13:37:36.134 19692-19692/com.atom.cam E/MultiScreenMVPBActivity: GroupConnectControl, 开始播放视频 后 needPlay = 1
+2022-03-08 13:37:36.143 19692-20163/com.atom.cam E/HLSDK_CameraCoreIml: resetDataQueue 初始化数据-》
+2022-03-08 13:37:36.151 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: 没有收到第一个I帧
+2022-03-08 13:37:36.151 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: data->0 num->360440
+2022-03-08 13:37:36.176 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: Relayout returned: old=[0,0][1080,2220] new=[0,0][2220,1080] result=0x23 surface={valid=true 542616109056} changed=false
+2022-03-08 13:37:36.213 19692-19692/com.atom.cam D/initLanguage: HLMultiLanguages 监听到应用切换了语种，旧语种：ja_JP，新语种：en
+2022-03-08 13:37:36.219 19692-19807/com.atom.cam D/OpenGLRenderer: eglDestroySurface = 0x7e6084e080, 0x7e5670c000
+2022-03-08 13:37:36.220 19692-19807/com.atom.cam D/OpenGLRenderer: eglCreateWindowSurface = 0x7e6084e080, 0x7e5670c010
+2022-03-08 13:37:36.225 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.225 19692-19692/com.atom.cam I/chatty: uid=11782(com.atom.cam) identical 2 lines
+2022-03-08 13:37:36.225 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.248 19692-19692/com.atom.cam D/MultiScreenCameraSingleFragment: QQQQQQ GroupConnectControl singleFragment onResume mac=7CDDE901007A
+2022-03-08 13:37:36.248 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 点击连接前的摄像头正在播放数量-- 1
+2022-03-08 13:37:36.248 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 点击连接前的摄像头正在播放数量-- 1
+2022-03-08 13:37:36.248 19692-19692/com.atom.cam E/MultiScreenMVPBActivity: GroupConnectControl, 开始播放视频 mac= 7CDDE901007A 开始前 needPlay = 1
+2022-03-08 13:37:36.248 19692-19692/com.atom.cam I/HLSDK_DeviceCoreManager: ------------------deviceCoreHoldercom.hl.manager.DeviceCoreHolder@eae19dc
+2022-03-08 13:37:36.248 19692-19692/com.atom.cam D/GroupConnectControl:  开始 视频 mac=7CDDE901007A
+2022-03-08 13:37:36.250 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:36.250 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: startCheckConnection  start,mac=7CDDE901007A
+2022-03-08 13:37:36.251 19692-19692/com.atom.cam D/HLSDK_CameraCoreIml: start watching end,mac=7CDDE901007A
+2022-03-08 13:37:36.252 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: GroupConnectControl 点击连接前的摄像头正在播放数量-- 1
+2022-03-08 13:37:36.252 19692-19692/com.atom.cam E/MultiScreenMVPBActivity: GroupConnectControl, 开始播放视频 后 needPlay = 1
+2022-03-08 13:37:36.252 19692-19692/com.atom.cam D/MultiScreenMVPBActivity: QQQQQQ GroupConnectControl 选中的   position= 0
+2022-03-08 13:37:36.255 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 2220, 1080) ci=Rect(0, 72 - 144, 0) vi=Rect(0, 72 - 144, 0) or=2
+2022-03-08 13:37:36.256 19692-19692/com.atom.cam E/GroupConnectControl:  开始 视频 playConnectCreateSuccessCallback mac=7CDDE901007A
+2022-03-08 13:37:36.256 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.256 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.267 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: 收到第一个I帧-isRecordH265=true
+2022-03-08 13:37:36.267 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: SDK 打点 收到第一个I帧
+2022-03-08 13:37:36.267 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:36.268 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: Relayout returned: old=[0,0][2220,1080] new=[0,0][2220,1080] result=0x1 surface={valid=true 542616109056} changed=false
+2022-03-08 13:37:36.270 19692-19807/com.atom.cam D/OpenGLRenderer: eglDestroySurface = 0x7e6084e080, 0x7e5670c000
+2022-03-08 13:37:36.271 19692-19807/com.atom.cam D/OpenGLRenderer: eglCreateWindowSurface = 0x7e6084e080, 0x7e5670c010
+2022-03-08 13:37:36.288 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 2220, 1080) ci=Rect(0, 72 - 144, 0) vi=Rect(0, 72 - 144, 0) or=2
+2022-03-08 13:37:36.289 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载成功 <<<--- 2
+2022-03-08 13:37:36.290 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 2220, 1080) ci=Rect(0, 0 - 144, 0) vi=Rect(0, 0 - 144, 0) or=2
+2022-03-08 13:37:36.290 19692-19692/com.atom.cam E/GroupConnectControl:  开始 视频 playConnectCreateSuccessCallback mac=7CDDE901007A
+2022-03-08 13:37:36.290 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.290 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.309 19692-19692/com.atom.cam D/GroupConnectControl:  开始 视频 successCallBack mac=7CDDE901007A
+2022-03-08 13:37:36.310 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.310 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.322 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.322 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.339 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.339 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.347 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:36.356 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.372 19692-19692/com.atom.cam I/chatty: uid=11782(com.atom.cam) identical 2 lines
+2022-03-08 13:37:36.372 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.389 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.389 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.406 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.406 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.422 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.422 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.439 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.439 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.454 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:36.455 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.455 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.472 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.473 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.489 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.489 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.506 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.506 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.523 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.523 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.539 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.539 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.550 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:36.556 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.556 19692-19692/com.atom.cam W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+2022-03-08 13:37:36.560 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:36.594 19692-20299/com.atom.cam D/HL::AndroidMediaCodec: AMediaCodec_delete = 0x7e54b7b760
+2022-03-08 13:37:36.595 19692-20293/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Executing->Idle
+2022-03-08 13:37:36.602 19692-20293/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Idle->Loaded
+2022-03-08 13:37:36.602 19692-20293/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Loaded
+2022-03-08 13:37:36.602 19692-20293/com.atom.cam I/ACodec:  [OMX.qcom.video.decoder.hevc] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:37:36.602 19692-20291/com.atom.cam D/SurfaceUtils: disconnecting from surface 0x7e54d93010, reason disconnectFromSurface
+2022-03-08 13:37:36.603 19692-20293/com.atom.cam I/SmartFittingClass: ShutDownSmartFitting!!
+2022-03-08 13:37:36.604 19692-20293/com.atom.cam I/SmartFittingClass: SmartFittingManagerServiceProxy::Deinit
+2022-03-08 13:37:36.604 19692-20293/com.atom.cam I/SmartFittingClass: Destroy SmartFittingListener
+2022-03-08 13:37:36.604 19692-20293/com.atom.cam I/SmartFittingClass: Destroy ~SmartFittingManagerServiceProxy::EventHandler
+2022-03-08 13:37:36.604 19692-20293/com.atom.cam I/SmartFittingClass: Destroy SmartFitting!!
+2022-03-08 13:37:36.604 19692-20293/com.atom.cam I/SmartFittingClass: Destroy SmartFittingManagerServiceProxy!!
+2022-03-08 13:37:36.608 19692-20293/com.atom.cam I/ACodec:  [OMX.qcom.video.decoder.hevc] Now uninitialized
+2022-03-08 13:37:36.608 19692-20293/com.atom.cam I/ACodec:  [] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:37:36.608 19692-20291/com.atom.cam I/MediaCodec: Codec shutdown complete
+2022-03-08 13:37:36.613 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:37:36.617 19692-19692/com.atom.cam D/Java_com_hl_media_SimpleSmartImagePlayer_native_1create: 版本号->Release-1.2.14
+2022-03-08 13:37:36.619 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载成功 <<<--- 2
+2022-03-08 13:37:36.629 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载成功 <<<--- 2
+2022-03-08 13:37:36.657 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:36.742 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:36.849 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:36.956 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:37.149 19692-20597/com.atom.cam I/chatty: uid=11782(com.atom.cam) Thread-3793 identical 2 lines
+2022-03-08 13:37:37.265 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:37.307 19692-20559/com.atom.cam I/MediaCodec: setCodecState state : 0
+2022-03-08 13:37:37.361 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:37.458 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:37.555 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:37.651 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:37.747 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:38.347 19692-20597/com.atom.cam I/chatty: uid=11782(com.atom.cam) Thread-3793 identical 6 lines
+2022-03-08 13:37:38.465 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:38.552 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:38.658 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:38.745 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:38.853 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:38.961 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:39.070 19692-20597/com.atom.cam I/chatty: uid=11782(com.atom.cam) Thread-3793 identical 1 line
+2022-03-08 13:37:39.159 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:39.256 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:39.354 19692-20597/com.atom.cam I/chatty: uid=11782(com.atom.cam) Thread-3793 identical 1 line
+2022-03-08 13:37:39.455 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:39.564 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:39.650 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:39.749 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:40.164 19692-20597/com.atom.cam I/chatty: uid=11782(com.atom.cam) Thread-3793 identical 4 lines
+2022-03-08 13:37:40.265 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:40.274 19692-20597/com.atom.cam I/ACodec:  [] Now uninitialized
+2022-03-08 13:37:40.276 19692-20617/com.atom.cam I/ACodec: [] onAllocateComponent
+2022-03-08 13:37:40.279 19692-20617/com.atom.cam I/OMXClient: IOmx service obtained
+2022-03-08 13:37:40.296 19692-20617/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Loaded
+2022-03-08 13:37:40.300 19692-20616/com.atom.cam D/SurfaceUtils: connecting to surface 0x7e54d93010, reason connectToSurface
+2022-03-08 13:37:40.300 19692-20616/com.atom.cam I/MediaCodec: [OMX.qcom.video.decoder.hevc] setting surface generation to 20164619
+2022-03-08 13:37:40.300 19692-20616/com.atom.cam D/SurfaceUtils: disconnecting from surface 0x7e54d93010, reason connectToSurface(reconnect)
+2022-03-08 13:37:40.300 19692-20616/com.atom.cam D/SurfaceUtils: connecting to surface 0x7e54d93010, reason connectToSurface(reconnect)
+2022-03-08 13:37:40.302 19692-20617/com.atom.cam W/DirectStreamingProxy: app-pid not found. use getpid(). pid = 19692
+2022-03-08 13:37:40.302 19692-20617/com.atom.cam D/DirectStreamingProxy: pid = 19692
+2022-03-08 13:37:40.303 19692-20617/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] OMX_QCOM_FramePacking_OnlyOneCompleteFrame is setting
+2022-03-08 13:37:40.304 19692-20617/com.atom.cam I/ACodec: Success to set FramePackingMode
+2022-03-08 13:37:40.313 19692-20617/com.atom.cam I/SmartFittingClass: Create SmartFitting Version 2.0
+2022-03-08 13:37:40.314 19692-20617/com.atom.cam I/SmartFittingClass: Init, [State:UNINITIALIZED] pid: 19692
+2022-03-08 13:37:40.322 19692-20617/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Loaded->Idle
+2022-03-08 13:37:40.327 19692-20624/com.atom.cam I/SmartFittingClass: InitialCheck()
+2022-03-08 13:37:40.327 19692-20624/com.atom.cam I/SmartFittingClass: Create SmartFittingManagerServiceProxy!!
+2022-03-08 13:37:40.327 19692-20624/com.atom.cam I/SmartFittingClass: SmartFittingManagerServiceProxy::init
+2022-03-08 13:37:40.328 19692-20624/com.atom.cam I/SmartFittingClass: Create SmartFittingManagerServiceProxy::EventHandler
+2022-03-08 13:37:40.328 19692-20624/com.atom.cam I/SmartFittingClass: SmartFittingManagerServiceProxy::onAddSmartFittingListener pid: 19692
+2022-03-08 13:37:40.328 19692-20624/com.atom.cam I/SmartFittingClass: Create SmartFittingListener
+2022-03-08 13:37:40.355 19692-20624/com.atom.cam I/SmartFittingClass: InitialCheck, WhiteListStatus returned from CodecSolution : 0
+2022-03-08 13:37:40.355 19692-20624/com.atom.cam I/SmartFittingClass: InitialCheck, [State:FINISHED] SmartFitting has not been activated by App. Shut Down SmartFitting.
+2022-03-08 13:37:40.371 19692-20617/com.atom.cam D/SurfaceUtils: set up nativeWindow 0x7e54d93010 for 1000x1000, color 0x7fa30c06, rotation 0, usage 0x20402900
+2022-03-08 13:37:40.373 19692-20617/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] configureOutputBuffersFromNativeWindow setBufferCount : 23, minUndequeuedBuffers : 5
+2022-03-08 13:37:40.384 19692-20617/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Idle->Executing
+2022-03-08 13:37:40.384 19692-20617/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Executing
+2022-03-08 13:37:40.384 19692-20616/com.atom.cam I/MediaCodec: setCodecState state : 0
+2022-03-08 13:37:40.416 19692-20617/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:40.429 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:40.438 19692-20617/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now handling output port settings change
+2022-03-08 13:37:40.448 19692-20617/com.atom.cam D/SurfaceUtils: set up nativeWindow 0x7e54d93010 for 640x360, color 0x7fa30c06, rotation 0, usage 0x20402900
+2022-03-08 13:37:40.453 19692-20617/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] configureOutputBuffersFromNativeWindow setBufferCount : 11, minUndequeuedBuffers : 5
+2022-03-08 13:37:40.462 19692-20617/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:40.466 19692-20617/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:40.468 19692-20617/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] Now Executing
+2022-03-08 13:37:40.475 19692-20597/com.atom.cam E/MultiScreenCameraSingleFragment:  frameHeadInfo.getCodec_id() 80 CamCommand.PARAM_ALLOW_H265 2
+2022-03-08 13:37:40.477 19692-20617/com.atom.cam I/ACodec: [OMX.qcom.video.decoder.hevc] OMX_EventPortSettingsChanged 0x7f000062
+2022-03-08 13:37:40.479 19692-20617/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:40.510 19692-20621/com.atom.cam D/HL::AndroidMediaCodec: format changed to: color-range: int32(1), color-standard: int32(1), color-transfer: int32(3), mime: string(video/raw), stride: int32(640), slice-height: int32(384), color-format: int32(2141391878), crop: Rect(0, 0, 639, 359), android._dataspace: int32(146866176), hdr-static-info: data, width: int32(640), height: int32(360)}
+2022-03-08 13:37:40.541 19692-20616/com.atom.cam I/MediaCodec: setCodecState state : 1
+2022-03-08 13:37:40.542 19692-20617/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:40.550 19692-19692/com.atom.cam D/MultiScreenCameraSingleFragment: 监听绘制 获取到第一帧  hasReceiveIFrame = true
+2022-03-08 13:37:40.551 19692-19807/com.atom.cam W/OpenGLRenderer: Unsupported Gamma: 146866176
+2022-03-08 13:37:40.576 19692-20617/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:40.603 19692-20617/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:40.651 19692-19692/com.atom.cam D/MultiScreenCameraSingleFragment: setViewStatus: status=5
+2022-03-08 13:37:40.651 19692-19692/com.atom.cam E/MultiScreenCameraSingleFragment: activity single 状态为静音
+2022-03-08 13:37:40.651 19692-19692/com.atom.cam D/MultiScreenMVPBActivity:  单个 全屏 fragment打开or关闭声音 只执行功能 不改变状态  7CDDE901007A
+2022-03-08 13:37:40.651 19692-19692/com.atom.cam D/MultiScreenMVPBActivity: 7CDDE901007A 单个 全屏 fragment 静音
+2022-03-08 13:37:40.652 19692-19692/com.atom.cam D/GroupConnectControl:  停止声音  mac=7CDDE901007A
+2022-03-08 13:37:40.655 19692-19692/com.atom.cam I/HLSDK_CmdInstance: 命令主体: {"PropertyList":{"2":2}}
+2022-03-08 13:37:40.656 19692-19692/com.atom.cam I/HLSDK_CamProtocolUtils: create_cmd: 38。。...28......28
+2022-03-08 13:37:40.656 19692-19692/com.atom.cam D/HLSDK_CommandInfo: new command, code=10010 deviceMac=7CDDE901007A
+2022-03-08 13:37:40.657 19692-19692/com.atom.cam D/HLSDK_P2pAVClient: send, isEmergency=false
+2022-03-08 13:37:40.658 19692-19692/com.atom.cam D/HLSDK_AudioDataProcess stop: begin stop audio,isPlayAudioData=false
+2022-03-08 13:37:40.663 19692-19692/com.atom.cam D/HLSDK_AudioFoucsTool: abandon: HLAudioManager  on stop
+2022-03-08 13:37:40.731 19692-20617/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:40.758 19692-20158/com.atom.cam D/HLSDK_P2pAVClient sessionHandle->12 SendThread: 发送10010,ret=43,耗时1 data->HLHLK
+2022-03-08 13:37:40.758 19692-20158/com.atom.cam D/HLSDK_P2pAVClient: whkwhk---send=10010, ret=43, time=1  data=484C484C4B4A41540126001C0001001EDF3022120E582FDD7E53BD9DBBA5757169B88C5F576C08224ACF23
+2022-03-08 13:37:40.812 19692-20617/com.atom.cam W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+2022-03-08 13:37:41.239 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 0
+2022-03-08 13:37:41.288 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 1
+2022-03-08 13:37:41.309 19692-19692/com.atom.cam I/HLSDK_CameraCoreIml: ---startManualRecord: fps---20
+2022-03-08 13:37:41.310 19692-19692/com.atom.cam I/HLSDK_RecordData: init fps = 20  frameTick=20
+2022-03-08 13:37:41.310 19692-19692/com.atom.cam I/HLSDK_RecordData: videoFile not exist
+2022-03-08 13:37:41.315 19692-20627/com.atom.cam I/HLSDK_RecordData: RecordData audioData run start id->31841
+2022-03-08 13:37:41.316 19692-20628/com.atom.cam I/HLSDK_RecordData: RecordData videoData run start isUseH265->true id->31842
+2022-03-08 13:37:41.316 19692-20628/com.atom.cam E/FFmpegSoftCodec:: const char *path ->/storage/emulated/0/ATOM/temp/1646717861.h264
+2022-03-08 13:37:41.316 19692-20628/com.atom.cam D/HLSDK_RecordData: initH265Decoder->/storage/emulated/0/ATOM/temp/1646717861.h264 result->0
+2022-03-08 13:37:41.344 19692-20162/com.atom.cam I/HLSDK_P2pAVClient: whkwhk---Control thread receive--OK  OK-3 frameNumber->55
+2022-03-08 13:37:41.345 19692-20162/com.atom.cam E/HLSDK_CameraCoreIml: --收到TUTK数据 ：484C484C4B4A41540127002800010037CA10D129F34A93F34A03BAEA0729B07D2176403D765C7F41C006D23BD87D2D5232E6E57634C2AF
+2022-03-08 13:37:41.345 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:41.345 19692-20162/com.atom.cam D/HLSDK_CamProtocolUtils: getCammandType: HL
+2022-03-08 13:37:41.345 19692-20162/com.atom.cam I/HLSDK_CommandTreatment: ---protocolControl receive command=39  Thread.currentThread().getName()=ControlThread_HLSTD-001071-SRJGR
+2022-03-08 13:37:41.345 19692-20162/com.atom.cam E/HLSDK_CommandTreatment: whkwhk-----getResponseBean===responseString={"Result":1,"ResultList":{"2":1}}
+2022-03-08 13:37:41.346 19692-20162/com.atom.cam I/HLSDK_CommandTreatment: ---dealSetPropertyList 
+2022-03-08 13:37:41.346 19692-20162/com.atom.cam E/HLSDK_CommandTreatment: whkwhk-----getResponseBean===responseString={"Result":1,"ResultList":{"2":1}}
+2022-03-08 13:37:41.347 19692-20162/com.atom.cam I/HLSDK_CommandTreatment: ---收到了设置属性的响应：ResponseBean{Result=1, PropertyList=null, ResultList={2=1}, Ts=0, sts=0, ets=0}
+2022-03-08 13:37:41.347 19692-20162/com.atom.cam E/HLSDK_CmdResultCallBack: Key = 2, Value = 1
+2022-03-08 13:37:41.347 19692-20162/com.atom.cam I/HLSDK_CmdResultCallBack: whkwhk----sendParams->false,2 ->1
+2022-03-08 13:37:41.347 19692-20162/com.atom.cam D/HLSDK_CameraCoreIml: fx handler what=10001
+2022-03-08 13:37:41.347 19692-20162/com.atom.cam E/HLSDK_CameraCoreIml: whkwhk------RES_CHANNEL_CONTROL
+2022-03-08 13:37:41.348 19692-19692/com.atom.cam D/GroupConnectControl:  停止声音 successCallBack  mac=7CDDE901007A
+2022-03-08 13:37:41.348 19692-19692/com.atom.cam D/MultiScreenCameraAdapter:  声音按钮的状态=2
+2022-03-08 13:37:41.349 19692-19692/com.atom.cam D/MultiScreenCameraSingleFragment:  声音按钮的状态=2
+2022-03-08 13:37:41.458 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:41.549 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:41.651 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:41.753 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:42.058 19692-20163/com.atom.cam I/chatty: uid=11782(com.atom.cam) VideoThread_HLS identical 4 lines
+2022-03-08 13:37:42.142 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:42.258 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:42.342 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:42.444 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:42.547 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:42.642 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:42.746 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:43.245 19692-20163/com.atom.cam I/chatty: uid=11782(com.atom.cam) VideoThread_HLS identical 6 lines
+2022-03-08 13:37:43.345 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:43.438 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:43.550 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:43.647 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:43.743 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:43.848 19692-20163/com.atom.cam I/chatty: uid=11782(com.atom.cam) VideoThread_HLS identical 1 line
+2022-03-08 13:37:43.942 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:44.100 19692-20628/com.atom.cam E/FFmpegSoftCodec:: Receive a frame error: -11 Try again!!
+2022-03-08 13:37:45.025 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 0
+2022-03-08 13:37:45.132 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 1
+2022-03-08 13:37:45.141 19692-19692/com.atom.cam D/Dialog: mIsSamsungBasicInteraction = false
+2022-03-08 13:37:45.141 19692-19692/com.atom.cam D/Dialog: mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+2022-03-08 13:37:45.145 19692-19692/com.atom.cam I/DecorView: createDecorCaptionView >> DecorView@32591d1[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+2022-03-08 13:37:45.157 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=191
+2022-03-08 13:37:45.157 19692-19692/com.atom.cam D/ViewRootImpl@8d3f7d3[MultiScreenMVPBActivity]: setView = DecorView@32591d1[MultiScreenMVPBActivity] TM=true MM=false
+2022-03-08 13:37:45.180 19692-19692/com.atom.cam D/MultiScreenCameraSingleFragment: GroupConnectControl isOpenVoice=false
+2022-03-08 13:37:45.180 19692-19692/com.atom.cam I/HLSDK_CameraCoreIml: ==================save to Album
+2022-03-08 13:37:45.182 19692-19692/com.atom.cam I/ACodec:  [] Now uninitialized
+2022-03-08 13:37:45.183 19692-20644/com.atom.cam I/ACodec: [] onAllocateComponent
+2022-03-08 13:37:45.184 19692-20644/com.atom.cam I/OMXClient: IOmx service obtained
+2022-03-08 13:37:45.186 19692-20644/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded
+2022-03-08 13:37:45.189 19692-19692/com.atom.cam I/HLSDK_RecordData: readPcmFile Length:0
+2022-03-08 13:37:45.190 19692-20644/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded->Idle
+2022-03-08 13:37:45.196 19692-20644/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Idle->Executing
+2022-03-08 13:37:45.197 19692-20644/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Executing
+2022-03-08 13:37:45.197 19692-20644/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Executing->Idle
+2022-03-08 13:37:45.197 19692-20628/com.atom.cam I/HLSDK_RecordData: RecordData videoData run end
+2022-03-08 13:37:45.199 19692-20627/com.atom.cam I/HLSDK_RecordData: RecordData audioData run end
+2022-03-08 13:37:45.207 19692-20644/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Idle->Loaded
+2022-03-08 13:37:45.207 19692-20644/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded
+2022-03-08 13:37:45.207 19692-20644/com.atom.cam I/ACodec:  [OMX.google.aac.encoder] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:37:45.208 19692-19692/com.atom.cam I/MultiScreenCameraSingleFragment: ===============================setRecordAnimation====isStartAnimation=false
+2022-03-08 13:37:45.208 19692-19692/com.atom.cam I/MultiScreenCameraSingleFragment: =============================recordAnimation   stop
+2022-03-08 13:37:45.212 19692-19692/com.atom.cam D/ViewRootImpl@8d3f7d3[MultiScreenMVPBActivity]: dispatchAttachedToWindow
+2022-03-08 13:37:45.229 19692-19692/com.atom.cam D/ViewRootImpl@8d3f7d3[MultiScreenMVPBActivity]: Relayout returned: old=[0,72][2076,1080] new=[936,438][1140,642] result=0x7 surface={valid=true 542749466624} changed=true
+2022-03-08 13:37:45.232 19692-19807/com.atom.cam D/OpenGLRenderer: eglCreateWindowSurface = 0x7e66e4fa80, 0x7e5e63a010
+2022-03-08 13:37:45.234 19692-19692/com.atom.cam D/ViewRootImpl@8d3f7d3[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2022-03-08 13:37:45.234 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@32591d1[MultiScreenMVPBActivity]
+2022-03-08 13:37:45.234 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -855310
+2022-03-08 13:37:45.236 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@32591d1[MultiScreenMVPBActivity]
+2022-03-08 13:37:45.236 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -855310
+2022-03-08 13:37:45.236 19692-19692/com.atom.cam V/InputMethodManager: Starting input: tba=com.atom.cam ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2022-03-08 13:37:45.236 19692-19692/com.atom.cam D/InputMethodManager: startInputInner - Id : 0
+2022-03-08 13:37:45.236 19692-19692/com.atom.cam I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2022-03-08 13:37:45.238 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=79
+2022-03-08 13:37:45.238 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=131
+2022-03-08 13:37:45.245 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:45.250 19692-19692/com.atom.cam D/ViewRootImpl@8d3f7d3[MultiScreenMVPBActivity]: MSG_RESIZED: frame=Rect(936, 438 - 1140, 642) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=2
+2022-03-08 13:37:45.267 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2022-03-08 13:37:45.267 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@f25608b[MultiScreenMVPBActivity]
+2022-03-08 13:37:45.267 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -16777216
+2022-03-08 13:37:45.347 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:45.373 19692-20628/com.atom.cam I/HLSDK_RecordData: RecordData videoData run end releaseH265Decoder 
+2022-03-08 13:37:45.450 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:45.476 19692-20647/com.atom.cam E/HLSDK_RecordData: convert  isRecordSound=true
+2022-03-08 13:37:45.478 19692-20647/com.atom.cam D/isoparser: FileDataSourceImpl:0 43362
+2022-03-08 13:37:45.487 19692-20647/com.atom.cam I/HLSDK_RecordData convert: start   /storage/emulated/0/ATOM/temp/1646717861.h264
+2022-03-08 13:37:45.487 19692-20647/com.atom.cam E/HLSDK_RecordData: ----convert: get aacTrack fileDataSource: 1646717861.aac
+2022-03-08 13:37:45.488 19692-20647/com.atom.cam W/System.err: java.lang.NullPointerException: Attempt to read from field 'int org.mp4parser.muxer.tracks.AACTrackImpl$AdtsHeader.sampleRate' on a null object reference
+2022-03-08 13:37:45.488 19692-20647/com.atom.cam W/System.err:     at org.mp4parser.muxer.tracks.AACTrackImpl.<init>(AACTrackImpl.java:139)
+2022-03-08 13:37:45.488 19692-20647/com.atom.cam W/System.err:     at org.mp4parser.muxer.tracks.AACTrackImpl.<init>(AACTrackImpl.java:130)
+2022-03-08 13:37:45.488 19692-20647/com.atom.cam W/System.err:     at com.hl.media.record.RecordData$3.run(RecordData.java:632)
+2022-03-08 13:37:45.488 19692-20647/com.atom.cam W/System.err:     at java.lang.Thread.run(Thread.java:764)
+2022-03-08 13:37:45.488 19692-20647/com.atom.cam E/HLSDK_RecordData: convert: get aacTrack exception: Attempt to read from field 'int org.mp4parser.muxer.tracks.AACTrackImpl$AdtsHeader.sampleRate' on a null object reference
+2022-03-08 13:37:45.488 19692-19692/com.atom.cam E/HLSDK_CameraCoreIml: ==================save to Album onFial-1
+2022-03-08 13:37:45.491 19692-19807/com.atom.cam D/OpenGLRenderer: eglDestroySurface = 0x7e66e4fa80, 0x7e5e63a000
+2022-03-08 13:37:45.491 19692-19692/com.atom.cam D/ViewRootImpl@8d3f7d3[MultiScreenMVPBActivity]: dispatchDetachedFromWindow
+2022-03-08 13:37:45.491 19692-19692/com.atom.cam D/ViewRootImpl@8d3f7d3[MultiScreenMVPBActivity]: Surface release. android.view.ViewRootImpl.doDie:7998 android.view.ViewRootImpl.die:7966 android.view.WindowManagerGlobal.removeViewLocked:497 android.view.WindowManagerGlobal.removeView:435 android.view.WindowManagerImpl.removeViewImmediate:124 android.app.Dialog.dismissDialog:518 android.app.Dialog.dismiss:501 com.hualai.multiscreen.view.dialog.LoadingDialog.dissLoading:138 
+2022-03-08 13:37:45.499 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=191
+2022-03-08 13:37:45.500 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2022-03-08 13:37:45.500 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@f25608b[MultiScreenMVPBActivity]
+2022-03-08 13:37:45.500 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -16777216
+2022-03-08 13:37:45.501 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@f25608b[MultiScreenMVPBActivity]
+2022-03-08 13:37:45.501 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -16777216
+2022-03-08 13:37:45.501 19692-19692/com.atom.cam V/InputMethodManager: Starting input: tba=com.atom.cam ic=null mNaviBarColor -16777216 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2022-03-08 13:37:45.501 19692-19692/com.atom.cam D/InputMethodManager: startInputInner - Id : 0
+2022-03-08 13:37:45.501 19692-19692/com.atom.cam I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2022-03-08 13:37:45.503 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=191
+2022-03-08 13:37:45.503 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=79
+2022-03-08 13:37:45.503 19692-19692/com.atom.cam E/ViewRootImpl: sendUserActionEvent() returned.
+2022-03-08 13:37:45.552 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:45.657 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:45.750 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:45.786 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=103
+2022-03-08 13:37:45.788 19692-19692/com.atom.cam D/ViewRootImpl@75d9141[Toast]: setView = android.widget.TextView{3be45ee V.ED..... ......ID 0,0-351,143 #102000b android:id/message} TM=true MM=false
+2022-03-08 13:37:45.789 19692-19692/com.atom.cam V/Toast: Text: Tave in android.widget.Toast$TN@5667a8f
+2022-03-08 13:37:45.796 19692-19692/com.atom.cam D/ViewRootImpl@75d9141[Toast]: dispatchAttachedToWindow
+2022-03-08 13:37:45.816 19692-19692/com.atom.cam D/ViewRootImpl@75d9141[Toast]: Relayout returned: old=[0,72][2076,1080] new=[862,504][1213,647] result=0x7 surface={valid=true 542749466624} changed=true
+2022-03-08 13:37:45.818 19692-19807/com.atom.cam D/OpenGLRenderer: eglCreateWindowSurface = 0x7e66e4fa80, 0x7e5e63a010
+2022-03-08 13:37:45.826 19692-19692/com.atom.cam D/ViewRootImpl@75d9141[Toast]: MSG_RESIZED: frame=Rect(862, 504 - 1213, 647) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=2
+2022-03-08 13:37:45.853 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:45.966 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:46.157 19692-20163/com.atom.cam I/chatty: uid=11782(com.atom.cam) VideoThread_HLS identical 2 lines
+2022-03-08 13:37:46.250 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:46.354 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:46.447 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:46.562 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:46.647 19692-20163/com.atom.cam I/chatty: uid=11782(com.atom.cam) VideoThread_HLS identical 1 line
+2022-03-08 13:37:46.751 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:46.844 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:47.356 19692-20163/com.atom.cam I/chatty: uid=11782(com.atom.cam) VideoThread_HLS identical 6 lines
+2022-03-08 13:37:47.459 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:47.563 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:47.667 19692-20163/com.atom.cam I/chatty: uid=11782(com.atom.cam) VideoThread_HLS identical 1 line
+2022-03-08 13:37:47.750 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:37:47.753 19692-19807/com.atom.cam D/OpenGLRenderer: eglDestroySurface = 0x7e66e4fa80, 0x7e5e63a000
+2022-03-08 13:37:47.754 19692-19692/com.atom.cam D/ViewRootImpl@75d9141[Toast]: dispatchDetachedFromWindow
+2022-03-08 13:37:47.766 19692-19692/com.atom.cam D/ViewRootImpl@75d9141[Toast]: Surface release. android.view.ViewRootImpl.doDie:7998 android.view.ViewRootImpl.die:7966 android.view.WindowManagerGlobal.removeViewLocked:497 android.view.WindowManagerGlobal.removeView:435 android.view.WindowManagerImpl.removeViewImmediate:124 android.widget.Toast$TN.handleHide:1110 android.widget.Toast$TN$1.handleMessage:898 android.os.Handler.dispatchMessage:106 
+2022-03-08 13:37:47.787 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=103
+2022-03-08 13:37:56.907 19692-20644/com.atom.cam I/ACodec:  [OMX.google.aac.encoder] Now uninitialized
+2022-03-08 13:37:56.907 19692-20644/com.atom.cam I/ACodec:  [] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:37:56.907 19692-20644/com.atom.cam I/MediaCodec: Codec shutdown complete
+2022-03-08 13:37:56.914 19692-19701/com.atom.cam W/System: A resource failed to call close. 
+2022-03-08 13:37:56.914 19692-19701/com.atom.cam W/System: A resource failed to call close. 
+2022-03-08 13:38:09.393 19692-20616/com.atom.cam I/MediaCodec: setCodecState state : 0
+2022-03-08 13:38:09.622 19692-20579/com.atom.cam I/MediaCodec: setCodecState state : 0
+2022-03-08 13:38:09.727 19692-20163/com.atom.cam E/HLSDK_CameraCoreIml: ----接收视频流间隔大于1000ms====videoInfoModel.getTimestamp=1646717887
+2022-03-08 13:38:09.819 19692-20616/com.atom.cam I/MediaCodec: setCodecState state : 1
+2022-03-08 13:38:09.819 19692-20579/com.atom.cam I/MediaCodec: setCodecState state : 1
+2022-03-08 13:38:10.246 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: ------buffer缓存帧数大于fps*2 丢帧完成->7CDDE901007A
+2022-03-08 13:38:10.247 19692-20597/com.atom.cam I/chatty: uid=11782(com.atom.cam) Thread-3793 identical 7 lines
+2022-03-08 13:38:10.248 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: ------buffer缓存帧数大于fps*2 丢帧完成->7CDDE901007A
+2022-03-08 13:38:10.259 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360811 last->360800
+2022-03-08 13:38:10.304 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: ------buffer缓存帧数大于fps*2 丢帧完成->7CDDE901007A
+2022-03-08 13:38:10.306 19692-20597/com.atom.cam I/chatty: uid=11782(com.atom.cam) Thread-3793 identical 6 lines
+2022-03-08 13:38:10.306 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: ------buffer缓存帧数大于fps*2 丢帧完成->7CDDE901007A
+2022-03-08 13:38:10.347 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360821 last->360800
+2022-03-08 13:38:10.435 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360822 last->360800
+2022-03-08 13:38:10.542 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360823 last->360800
+2022-03-08 13:38:10.649 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360824 last->360800
+2022-03-08 13:38:10.766 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360825 last->360800
+2022-03-08 13:38:10.940 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360826 last->360800
+2022-03-08 13:38:11.029 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360827 last->360800
+2022-03-08 13:38:11.276 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360828 last->360800
+2022-03-08 13:38:11.470 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360829 last->360800
+2022-03-08 13:38:11.652 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360830 last->360800
+2022-03-08 13:38:11.709 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360831 last->360800
+2022-03-08 13:38:11.788 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360832 last->360800
+2022-03-08 13:38:11.823 19692-20579/com.atom.cam I/MediaCodec: setCodecState state : 0
+2022-03-08 13:38:11.824 19692-20616/com.atom.cam I/MediaCodec: setCodecState state : 0
+2022-03-08 13:38:11.833 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360833 last->360800
+2022-03-08 13:38:11.912 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360834 last->360800
+2022-03-08 13:38:11.990 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360835 last->360800
+2022-03-08 13:38:12.036 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360836 last->360800
+2022-03-08 13:38:12.082 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360837 last->360800
+2022-03-08 13:38:12.140 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360838 last->360800
+2022-03-08 13:38:12.217 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360839 last->360800
+2022-03-08 13:38:12.283 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360840 last->360800
+2022-03-08 13:38:12.477 19692-20579/com.atom.cam I/MediaCodec: setCodecState state : 1
+2022-03-08 13:38:12.506 19692-20616/com.atom.cam I/MediaCodec: setCodecState state : 1
+2022-03-08 13:38:15.483 19692-20579/com.atom.cam I/MediaCodec: setCodecState state : 0
+2022-03-08 13:38:15.509 19692-20616/com.atom.cam I/MediaCodec: setCodecState state : 0
+2022-03-08 13:38:17.021 19692-20163/com.atom.cam E/HLSDK_CameraCoreIml: ----接收视频流间隔大于1000ms====videoInfoModel.getTimestamp=1646717893
+2022-03-08 13:38:17.090 19692-20616/com.atom.cam I/MediaCodec: setCodecState state : 1
+2022-03-08 13:38:17.095 19692-20579/com.atom.cam I/MediaCodec: setCodecState state : 1
+2022-03-08 13:38:19.096 19692-20616/com.atom.cam I/MediaCodec: setCodecState state : 0
+2022-03-08 13:38:19.098 19692-20579/com.atom.cam I/MediaCodec: setCodecState state : 0
+2022-03-08 13:38:20.044 19692-20163/com.atom.cam E/HLSDK_CameraCoreIml: ----接收视频流间隔大于1000ms====videoInfoModel.getTimestamp=1646717893
+2022-03-08 13:38:20.090 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: ------buffer缓存帧数大于fps*2 丢帧完成->7CDDE901007A
+2022-03-08 13:38:20.094 19692-20597/com.atom.cam I/chatty: uid=11782(com.atom.cam) Thread-3793 identical 17 lines
+2022-03-08 13:38:20.095 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: ------buffer缓存帧数大于fps*2 丢帧完成->7CDDE901007A
+2022-03-08 13:38:20.102 19692-20579/com.atom.cam I/MediaCodec: setCodecState state : 1
+2022-03-08 13:38:20.113 19692-20616/com.atom.cam I/MediaCodec: setCodecState state : 1
+2022-03-08 13:38:21.108 19692-20579/com.atom.cam I/MediaCodec: setCodecState state : 0
+2022-03-08 13:38:21.119 19692-20616/com.atom.cam I/MediaCodec: setCodecState state : 0
+2022-03-08 13:38:21.699 19692-20163/com.atom.cam E/HLSDK_CameraCoreIml: ----接收视频流间隔大于1000ms====videoInfoModel.getTimestamp=1646717895
+2022-03-08 13:38:21.784 19692-20579/com.atom.cam I/MediaCodec: setCodecState state : 1
+2022-03-08 13:38:21.787 19692-20616/com.atom.cam I/MediaCodec: setCodecState state : 1
+2022-03-08 13:38:22.067 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: ------buffer缓存帧数大于fps*2 丢帧完成->7CDDE901007A
+2022-03-08 13:38:22.068 19692-20597/com.atom.cam I/chatty: uid=11782(com.atom.cam) Thread-3793 identical 44 lines
+2022-03-08 13:38:22.068 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: ------buffer缓存帧数大于fps*2 丢帧完成->7CDDE901007A
+2022-03-08 13:38:22.099 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360931 last->360921
+2022-03-08 13:38:22.165 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360932 last->360921
+2022-03-08 13:38:22.231 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360933 last->360921
+2022-03-08 13:38:22.310 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360934 last->360921
+2022-03-08 13:38:22.396 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360935 last->360921
+2022-03-08 13:38:22.494 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360936 last->360921
+2022-03-08 13:38:22.644 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360937 last->360921
+2022-03-08 13:38:22.735 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360938 last->360921
+2022-03-08 13:38:22.854 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360939 last->360921
+2022-03-08 13:38:22.900 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360940 last->360921
+2022-03-08 13:38:23.021 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360941 last->360921
+2022-03-08 13:38:23.088 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360942 last->360921
+2022-03-08 13:38:23.251 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360943 last->360921
+2022-03-08 13:38:23.327 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360944 last->360921
+2022-03-08 13:38:23.373 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360945 last->360921
+2022-03-08 13:38:23.419 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360946 last->360921
+2022-03-08 13:38:23.475 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360947 last->360921
+2022-03-08 13:38:23.521 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360948 last->360921
+2022-03-08 13:38:23.567 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360949 last->360921
+2022-03-08 13:38:23.613 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360950 last->360921
+2022-03-08 13:38:23.624 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360951 last->360921
+2022-03-08 13:38:23.670 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360952 last->360921
+2022-03-08 13:38:23.682 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360953 last->360921
+2022-03-08 13:38:23.693 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360954 last->360921
+2022-03-08 13:38:23.739 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360955 last->360921
+2022-03-08 13:38:23.786 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360956 last->360921
+2022-03-08 13:38:23.790 19692-20616/com.atom.cam I/MediaCodec: setCodecState state : 0
+2022-03-08 13:38:23.791 19692-20579/com.atom.cam I/MediaCodec: setCodecState state : 0
+2022-03-08 13:38:23.832 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360957 last->360921
+2022-03-08 13:38:23.878 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360958 last->360921
+2022-03-08 13:38:23.924 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360959 last->360921
+2022-03-08 13:38:23.970 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360960 last->360921
+2022-03-08 13:38:24.499 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: ------buffer缓存帧数大于fps*2 丢帧完成->7CDDE901007A
+2022-03-08 13:38:24.499 19692-20597/com.atom.cam I/chatty: uid=11782(com.atom.cam) Thread-3793 identical 5 lines
+2022-03-08 13:38:24.500 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: ------buffer缓存帧数大于fps*2 丢帧完成->7CDDE901007A
+2022-03-08 13:38:24.510 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360969 last->360921
+2022-03-08 13:38:24.555 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360970 last->360921
+2022-03-08 13:38:24.643 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360971 last->360921
+2022-03-08 13:38:24.732 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360972 last->360921
+2022-03-08 13:38:24.853 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360973 last->360921
+2022-03-08 13:38:24.953 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360974 last->360921
+2022-03-08 13:38:25.008 19692-20136/com.atom.cam E/HLSDK_P2pAVClient: Session Closed TimeOUT!!
+2022-03-08 13:38:25.009 19692-20135/com.atom.cam E/HLSDK_P2pAVClient: whkwhk---Control thread receive--ELSE   ELSE -13 frameNumber->0
+2022-03-08 13:38:25.009 19692-20135/com.atom.cam E/HLSDK_CameraCoreIml: -----Connect CONNECTION_BREAK!!
+2022-03-08 13:38:25.009 19692-20136/com.atom.cam I/HLSDK_P2pAVClient: =================Video thread stop=============isVideoThreadLooping==true    24492
+2022-03-08 13:38:25.011 19692-19692/com.atom.cam D/GroupConnectControl: whkwhk----connectBreakCallback mac = 7CDDE9010618 resultCmd = -103
+2022-03-08 13:38:25.011 19692-20135/com.atom.cam I/HLSDK_P2pAVClient: =================Control thread stop===============    24491
+2022-03-08 13:38:25.011 19692-19692/com.atom.cam I/HLSDK_DeviceCoreManager: ------------------deviceCoreHoldercom.hl.manager.DeviceCoreHolder@b098354
+2022-03-08 13:38:25.012 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: 主列表摄像头当前连接状态--- 设备mac 7CDDE9010618 code -103
+2022-03-08 13:38:25.012 19692-20145/com.atom.cam E/HLSDK_P2pAVClient: Session Closed TimeOUT!!
+2022-03-08 13:38:25.013 19692-20145/com.atom.cam I/HLSDK_P2pAVClient: =================Audio thread stop===============    24493
+2022-03-08 13:38:25.020 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载 <<<--- 2
+2022-03-08 13:38:25.028 19692-19692/com.atom.cam I/MultiScreenCameraAdapter: GroupConnectControl ========CONNECTION_BREAK=====
+2022-03-08 13:38:25.028 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: setViewStatus: status=4
+2022-03-08 13:38:25.028 19692-19692/com.atom.cam I/MultiScreenCameraAdapter: ============================setConnectAnimation=====isStartAnimation=false
+2022-03-08 13:38:25.028 19692-19692/com.atom.cam I/MultiScreenCameraAdapter: GroupConnectControl ========setConnectErrorAction==4
+2022-03-08 13:38:25.028 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: 4getErrorCode =
+2022-03-08 13:38:25.029 19692-19692/com.atom.cam D/MultiScreenCameraAdapter: getErrorCodeMessage  error=0.0
+2022-03-08 13:38:25.041 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360975 last->360921
+2022-03-08 13:38:25.058 19692-19692/com.atom.cam I/HLSDK_LastThumbnailManager: [mac] 首选图片加载成功 <<<--- 2
+2022-03-08 13:38:25.110 19692-20133/com.atom.cam I/System.out: PPCS_Check_Buffer CH=0, ret=-13
+2022-03-08 13:38:25.111 19692-20133/com.atom.cam E/HLSDK_P2pAVClient: PPCS_Check_Buffer CH=0, ret=-13 [ERROR_PPCS_SESSION_CLOSED_TIMEOUT]
+2022-03-08 13:38:25.111 19692-20133/com.atom.cam I/HLSDK_P2pAVClient: ================command send thread stop===============    24490
+2022-03-08 13:38:25.644 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360976 last->360921
+2022-03-08 13:38:25.690 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360977 last->360921
+2022-03-08 13:38:25.701 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360978 last->360921
+2022-03-08 13:38:25.747 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360979 last->360921
+2022-03-08 13:38:25.793 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360980 last->360921
+2022-03-08 13:38:25.838 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360981 last->360921
+2022-03-08 13:38:25.884 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360982 last->360921
+2022-03-08 13:38:25.930 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360983 last->360921
+2022-03-08 13:38:25.976 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360984 last->360921
+2022-03-08 13:38:26.022 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360985 last->360921
+2022-03-08 13:38:26.067 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360986 last->360921
+2022-03-08 13:38:26.145 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360987 last->360921
+2022-03-08 13:38:26.254 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360988 last->360921
+2022-03-08 13:38:26.343 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360989 last->360921
+2022-03-08 13:38:26.432 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360990 last->360921
+2022-03-08 13:38:26.541 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360991 last->360921
+2022-03-08 13:38:26.642 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360992 last->360921
+2022-03-08 13:38:26.751 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360993 last->360921
+2022-03-08 13:38:26.840 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360994 last->360921
+2022-03-08 13:38:26.938 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360995 last->360921
+2022-03-08 13:38:27.028 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360996 last->360921
+2022-03-08 13:38:27.128 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360997 last->360921
+2022-03-08 13:38:27.239 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360998 last->360921
+2022-03-08 13:38:27.337 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->360999 last->360921
+2022-03-08 13:38:27.437 19692-20597/com.atom.cam E/HLSDK_CameraCoreIml: P frame Frame_num drop 间隔大于6 current->361000 last->360921
+2022-03-08 13:38:27.612 19692-20616/com.atom.cam I/MediaCodec: setCodecState state : 1
+2022-03-08 13:38:27.615 19692-20579/com.atom.cam I/MediaCodec: setCodecState state : 1
+2022-03-08 13:38:28.922 19692-19703/com.atom.cam I/com.atom.cam: Background concurrent copying GC freed 21812(12MB) AllocSpace objects, 1(68KB) LOS objects, 50% free, 13MB/26MB, paused 160us total 124.623ms
+2022-03-08 13:38:46.845 19692-19703/com.atom.cam I/com.atom.cam: Background concurrent copying GC freed 11674(13MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 13MB/27MB, paused 211us total 134.818ms
+2022-03-08 13:39:05.456 19692-19703/com.atom.cam I/com.atom.cam: Background concurrent copying GC freed 10503(13MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 13MB/27MB, paused 164us total 157.416ms
+2022-03-08 13:39:08.203 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 0
+2022-03-08 13:39:08.328 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: ViewPostIme pointer 1
+2022-03-08 13:39:08.341 19692-19692/com.atom.cam D/Dialog: mIsSamsungBasicInteraction = false
+2022-03-08 13:39:08.341 19692-19692/com.atom.cam D/Dialog: mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+2022-03-08 13:39:08.345 19692-19692/com.atom.cam I/DecorView: createDecorCaptionView >> DecorView@80c4cb1[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+2022-03-08 13:39:08.362 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=78
+2022-03-08 13:39:08.362 19692-19692/com.atom.cam D/ViewRootImpl@f41dbb3[MultiScreenMVPBActivity]: setView = DecorView@80c4cb1[MultiScreenMVPBActivity] TM=true MM=false
+2022-03-08 13:39:08.404 19692-19692/com.atom.cam D/MultiScreenCameraSingleFragment: GroupConnectControl isOpenVoice=false
+2022-03-08 13:39:08.404 19692-19692/com.atom.cam I/HLSDK_CameraCoreIml: ==================save to Album
+2022-03-08 13:39:08.406 19692-19692/com.atom.cam I/ACodec:  [] Now uninitialized
+2022-03-08 13:39:08.407 19692-20673/com.atom.cam I/ACodec: [] onAllocateComponent
+2022-03-08 13:39:08.408 19692-20673/com.atom.cam I/OMXClient: IOmx service obtained
+2022-03-08 13:39:08.410 19692-20673/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded
+2022-03-08 13:39:08.413 19692-19692/com.atom.cam I/HLSDK_RecordData: readPcmFile Length:0
+2022-03-08 13:39:08.413 19692-20673/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded->Idle
+2022-03-08 13:39:08.416 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:39:08.419 19692-20673/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Idle->Executing
+2022-03-08 13:39:08.420 19692-20673/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Executing
+2022-03-08 13:39:08.420 19692-20673/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Executing->Idle
+2022-03-08 13:39:08.421 19692-20673/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Idle->Loaded
+2022-03-08 13:39:08.421 19692-20673/com.atom.cam I/ACodec: [OMX.google.aac.encoder] Now Loaded
+2022-03-08 13:39:08.421 19692-20673/com.atom.cam I/ACodec:  [OMX.google.aac.encoder] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:39:08.422 19692-19692/com.atom.cam I/MultiScreenCameraSingleFragment: ===============================setRecordAnimation====isStartAnimation=false
+2022-03-08 13:39:08.422 19692-19692/com.atom.cam I/MultiScreenCameraSingleFragment: =============================recordAnimation   stop
+2022-03-08 13:39:08.423 19692-19692/com.atom.cam D/ViewRootImpl@f41dbb3[MultiScreenMVPBActivity]: dispatchAttachedToWindow
+2022-03-08 13:39:08.440 19692-19692/com.atom.cam D/ViewRootImpl@f41dbb3[MultiScreenMVPBActivity]: Relayout returned: old=[0,72][2076,1080] new=[936,438][1140,642] result=0x7 surface={valid=true 542615826432} changed=true
+2022-03-08 13:39:08.442 19692-19807/com.atom.cam D/OpenGLRenderer: eglCreateWindowSurface = 0x7e67287100, 0x7e566c7010
+2022-03-08 13:39:08.444 19692-19692/com.atom.cam D/ViewRootImpl@f41dbb3[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2022-03-08 13:39:08.444 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@80c4cb1[MultiScreenMVPBActivity]
+2022-03-08 13:39:08.444 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -855310
+2022-03-08 13:39:08.445 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@80c4cb1[MultiScreenMVPBActivity]
+2022-03-08 13:39:08.445 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -855310
+2022-03-08 13:39:08.445 19692-19692/com.atom.cam V/InputMethodManager: Starting input: tba=com.atom.cam ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2022-03-08 13:39:08.445 19692-19692/com.atom.cam D/InputMethodManager: startInputInner - Id : 0
+2022-03-08 13:39:08.445 19692-19692/com.atom.cam I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2022-03-08 13:39:08.447 19692-19692/com.atom.cam D/InputTransport: Input channel constructed: fd=98
+2022-03-08 13:39:08.447 19692-19692/com.atom.cam D/InputTransport: Input channel destroyed: fd=191
+2022-03-08 13:39:08.453 19692-19692/com.atom.cam D/ViewRootImpl@f41dbb3[MultiScreenMVPBActivity]: MSG_RESIZED: frame=Rect(936, 438 - 1140, 642) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=2
+2022-03-08 13:39:08.462 19692-19692/com.atom.cam D/ViewRootImpl@bcbda5b[MultiScreenMVPBActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2022-03-08 13:39:08.462 19692-19692/com.atom.cam D/InputMethodManager: prepareNavigationBarInfo() DecorView@f25608b[MultiScreenMVPBActivity]
+2022-03-08 13:39:08.462 19692-19692/com.atom.cam D/InputMethodManager: getNavigationBarColor() -16777216
+2022-03-08 13:39:08.518 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:39:08.621 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:39:08.714 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:39:08.816 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:39:08.925 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:39:09.030 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:39:09.520 19692-20163/com.atom.cam I/chatty: uid=11782(com.atom.cam) VideoThread_HLS identical 5 lines
+2022-03-08 13:39:09.613 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:39:09.718 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:39:09.824 19692-20163/com.atom.cam I/chatty: uid=11782(com.atom.cam) VideoThread_HLS identical 1 line
+2022-03-08 13:39:09.922 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:39:10.027 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:39:10.413 19692-20163/com.atom.cam I/chatty: uid=11782(com.atom.cam) VideoThread_HLS identical 4 lines
+2022-03-08 13:39:10.468 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:39:10.553 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:39:10.644 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:39:10.919 19692-20163/com.atom.cam I/chatty: uid=11782(com.atom.cam) VideoThread_HLS identical 3 lines
+2022-03-08 13:39:11.024 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:39:11.117 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:39:11.323 19692-20163/com.atom.cam I/chatty: uid=11782(com.atom.cam) VideoThread_HLS identical 2 lines
+2022-03-08 13:39:11.427 19692-20163/com.atom.cam D/HLSDK_CameraCoreIml: tutkAVCallBackVideo isRecording 尚未收到I帧
+2022-03-08 13:39:24.923 19692-19703/com.atom.cam I/com.atom.cam: Background concurrent copying GC freed 12531(13MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 13MB/27MB, paused 518us total 126.127ms
+2022-03-08 13:39:24.925 19692-20673/com.atom.cam I/ACodec:  [OMX.google.aac.encoder] Now uninitialized
+2022-03-08 13:39:24.925 19692-20673/com.atom.cam I/ACodec:  [] Now kWhatShutdownCompleted event : 8553
+2022-03-08 13:39:24.925 19692-20673/com.atom.cam I/MediaCodec: Codec shutdown complete
+2022-03-08 13:39:44.485 19692-19703/com.atom.cam I/com.atom.cam: Background concurrent copying GC freed 11243(13MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 14MB/28MB, paused 1.668ms total 124.288ms
+2022-03-08 13:40:04.698 19692-19703/com.atom.cam I/com.atom.cam: Background concurrent copying GC freed 11523(13MB) AllocSpace objects, 0(0B) LOS objects, 50% free, 14MB/28MB, paused 2.363ms total 136.855ms
+2022-03-08 13:40:23.693 19692-19703/com.atom.cam I/com.atom.cam: Background concurrent copying GC freed 11383(14MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 14MB/28MB, paused 355us total 112.220ms
