@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Gx">
+
+
+
+    <meta name="description" content="description">
+
+
+
+<title>Hexo搭建 | Nine`s Blog</title>
+
+
+
+    <link rel="icon" href="/image/luancher.jpg">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 6.0.0"></head>
+
+<body>
+    <script>
+        // this function is used to check current theme before page loaded.
+        (() => {
+            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
+            const isDark = currentTheme === 'dark';
+            const pagebody = document.getElementsByTagName('body')[0]
+            if (isDark) {
+                pagebody.classList.add('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            } else {
+                pagebody.classList.remove('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Light"
+            }
+        })();
+    </script>
+
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Nine&#39;s Blog</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">博客</a>
+                
+                    <a class="menu-item" href="/category">分类</a>
+                
+                    <a class="menu-item" href="/tag">标签</a>
+                
+                    <a class="menu-item" href="/about">关于</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Nine&#39;s Blog</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">博客</a>
+                
+                    <a class="menu-item" href="/category">分类</a>
+                
+                    <a class="menu-item" href="/tag">标签</a>
+                
+                    <a class="menu-item" href="/about">关于</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+            <div class="main">
+                <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Hexo搭建</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">Gx</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">January 1, 2022&nbsp;&nbsp;16:05:41</a>
+                        </span>
+                    
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/%E5%85%B6%E4%BB%96/">其他</a>
+                            
+                        </span>
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h3 id="Hexo介绍"><a href="#Hexo介绍" class="headerlink" title="Hexo介绍"></a>Hexo介绍</h3><p>一款可以配置的博客框架</p>
+<h3 id="前期准备工具"><a href="#前期准备工具" class="headerlink" title="前期准备工具"></a>前期准备工具</h3><p><a target="_blank" rel="noopener" href="https://git-scm.com/downloads">Git</a><br><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a><br><a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">Node.js</a><br><a target="_blank" rel="noopener" href="https://github.com/">Github</a></p>
+<h3 id="搭建流程"><a href="#搭建流程" class="headerlink" title="搭建流程"></a>搭建流程</h3><h6 id="1、新建一个文件夹，在文件夹根目录-使用"><a href="#1、新建一个文件夹，在文件夹根目录-使用" class="headerlink" title="1、新建一个文件夹，在文件夹根目录 使用"></a>1、新建一个文件夹，在文件夹根目录 使用</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+<h6 id="2、安装完成后，输入-hexo-v-输出版本信息"><a href="#2、安装完成后，输入-hexo-v-输出版本信息" class="headerlink" title="2、安装完成后，输入 hexo -v 输出版本信息"></a>2、安装完成后，输入 hexo -v 输出版本信息</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+<h6 id="3、输入hexo-init初始化-自动会在根目录下生成Hexo所需要的文件和文件夹"><a href="#3、输入hexo-init初始化-自动会在根目录下生成Hexo所需要的文件和文件夹" class="headerlink" title="3、输入hexo init初始化,自动会在根目录下生成Hexo所需要的文件和文件夹"></a>3、输入hexo init初始化,自动会在根目录下生成Hexo所需要的文件和文件夹</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<h6 id="4、-输入命令-hexo-generate可以缩写hexo-g-生成HTML页面-并且会多出public文件夹，public文件夹内是hexo生成的html文件还有css、js、json"><a href="#4、-输入命令-hexo-generate可以缩写hexo-g-生成HTML页面-并且会多出public文件夹，public文件夹内是hexo生成的html文件还有css、js、json" class="headerlink" title="4、 输入命令 hexo generate可以缩写hexo g 生成HTML页面,并且会多出public文件夹，public文件夹内是hexo生成的html文件还有css、js、json"></a>4、 输入命令 hexo generate可以缩写hexo g 生成HTML页面,并且会多出public文件夹，public文件夹内是hexo生成的html文件还有css、js、json</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+<h6 id="5、使用命令-hexo-server-可缩写hexo-s启动服务"><a href="#5、使用命令-hexo-server-可缩写hexo-s启动服务" class="headerlink" title="5、使用命令 hexo server 可缩写hexo s启动服务"></a>5、使用命令 hexo server 可缩写hexo s启动服务</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<h6 id="6、在浏览器里输入http-localhost-4000这是默认主题，后面可以在网上下载别人做好的主题进行修改"><a href="#6、在浏览器里输入http-localhost-4000这是默认主题，后面可以在网上下载别人做好的主题进行修改" class="headerlink" title="6、在浏览器里输入http://localhost:4000这是默认主题，后面可以在网上下载别人做好的主题进行修改"></a>6、在浏览器里输入<a href="http://localhost:4000这是默认主题，后面可以在网上下载别人做好的主题进行修改">http://localhost:4000这是默认主题，后面可以在网上下载别人做好的主题进行修改</a></h6><h3 id="使用Github托管"><a href="#使用Github托管" class="headerlink" title="使用Github托管"></a>使用Github托管</h3><h6 id="1、登录Github新建一个仓库，仓库名必须为你的Github用户名-github-io"><a href="#1、登录Github新建一个仓库，仓库名必须为你的Github用户名-github-io" class="headerlink" title="1、登录Github新建一个仓库，仓库名必须为你的Github用户名.github.io"></a>1、登录Github新建一个仓库，仓库名必须为你的Github用户名.github.io</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">例如&quot;GUOXU.github.io&quot;</span><br></pre></td></tr></table></figure>
+<h6 id="2、配置SSH-细节可以在网上查找"><a href="#2、配置SSH-细节可以在网上查找" class="headerlink" title="2、配置SSH(细节可以在网上查找)"></a>2、配置SSH(细节可以在网上查找)</h6><h6 id="3、进到新建的Github仓库-点击右上角setting进入设置找到Deploykeys选择-Add-Deploy-keys-Title随便填写-Key的内容填刚才id-rsa-pub文件中复制的内容"><a href="#3、进到新建的Github仓库-点击右上角setting进入设置找到Deploykeys选择-Add-Deploy-keys-Title随便填写-Key的内容填刚才id-rsa-pub文件中复制的内容" class="headerlink" title="3、进到新建的Github仓库 点击右上角setting进入设置找到Deploykeys选择 Add Deploy keys Title随便填写 Key的内容填刚才id_rsa.pub文件中复制的内容"></a>3、进到新建的Github仓库 点击右上角setting进入设置找到Deploykeys选择 Add Deploy keys Title随便填写 Key的内容填刚才id_rsa.pub文件中复制的内容</h6><h6 id="4、用记事本打开的Hexo项目文件夹下单-config-yml文件，拉到最底部找到deploy-填写如下内容-注意-冒号后面有个空格"><a href="#4、用记事本打开的Hexo项目文件夹下单-config-yml文件，拉到最底部找到deploy-填写如下内容-注意-冒号后面有个空格" class="headerlink" title="4、用记事本打开的Hexo项目文件夹下单_config.yml文件，拉到最底部找到deploy:填写如下内容(注意:冒号后面有个空格)"></a>4、用记事本打开的Hexo项目文件夹下单_config.yml文件，拉到最底部找到deploy:填写如下内容(注意:冒号后面有个空格)</h6><h6 id="5、进入你的Hexo目录，分别执行以下命令"><a href="#5、进入你的Hexo目录，分别执行以下命令" class="headerlink" title="5、进入你的Hexo目录，分别执行以下命令"></a>5、进入你的Hexo目录，分别执行以下命令</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save  #安装部署工具</span><br><span class="line">$ hexo clean                            #清除缓存       可缩写hexo c</span><br><span class="line">$ hexo generate                         #生成静态文件    可缩写hexo g</span><br><span class="line">$ hexo deploy                           #部署到Github   可缩写hexo d</span><br></pre></td></tr></table></figure>
+<h6 id="6、在浏览器中输入http-x2F-x2F-你的Github用户名-github-io-就可以看到你的个人博客"><a href="#6、在浏览器中输入http-x2F-x2F-你的Github用户名-github-io-就可以看到你的个人博客" class="headerlink" title="6、在浏览器中输入http:&#x2F;&#x2F;你的Github用户名.github.io 就可以看到你的个人博客"></a>6、在浏览器中输入http:&#x2F;&#x2F;你的Github用户名.github.io 就可以看到你的个人博客</h6><h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/137476045">Hexo搭建个人博客-并部署到Github上托管</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_53893220/article/details/122930456">hexo 搭建自己的个人博客以及配置主题</a></li>
+</ul>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>Gx</span>
+                    </p>
+                
+                
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/%E5%AD%A6%E4%B9%A0/"># 学习</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2022/03/02/%E5%8D%95%E4%BE%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">单例设计模式</a>
+            
+            
+        </section>
+
+
+    </article>
+</div>
+
+            </div>
+            <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© Gx | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+
+</html>
