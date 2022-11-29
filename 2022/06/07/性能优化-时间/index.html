@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Gx">
+
+
+
+    <meta name="description" content="description">
+
+
+
+<title>性能优化-时间 | Nine`s Blog</title>
+
+
+
+    <link rel="icon" href="/image/luancher.jpg">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 6.0.0"></head>
+
+<body>
+    <script>
+        // this function is used to check current theme before page loaded.
+        (() => {
+            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
+            const isDark = currentTheme === 'dark';
+            const pagebody = document.getElementsByTagName('body')[0]
+            if (isDark) {
+                pagebody.classList.add('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            } else {
+                pagebody.classList.remove('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Light"
+            }
+        })();
+    </script>
+
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Nine&#39;s Blog</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">博客</a>
+                
+                    <a class="menu-item" href="/category">分类</a>
+                
+                    <a class="menu-item" href="/tag">标签</a>
+                
+                    <a class="menu-item" href="/about">关于</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Nine&#39;s Blog</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">博客</a>
+                
+                    <a class="menu-item" href="/category">分类</a>
+                
+                    <a class="menu-item" href="/tag">标签</a>
+                
+                    <a class="menu-item" href="/about">关于</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+            <div class="main">
+                <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">性能优化-时间</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">Gx</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">June 7, 2022&nbsp;&nbsp;16:23:40</a>
+                        </span>
+                    
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/">性能优化</a>
+                            
+                        </span>
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h3 id="响应时间"><a href="#响应时间" class="headerlink" title="响应时间"></a>响应时间</h3><h6 id="网络优化"><a href="#网络优化" class="headerlink" title="网络优化"></a>网络优化</h6><ul>
+<li>合理定义接口，避免一个接口获取大量数据</li>
+<li>通过Android Profiler 观察网络&#x2F;内存占用率</li>
+<li>耗时操作应放入子线程进行处理，不能阻塞主线程。避免ANR</li>
+<li>SDK等资源应采用懒加载方式，需要时才进行加载，不需要时可不必加载。</li>
+</ul>
+<h6 id="View优化"><a href="#View优化" class="headerlink" title="View优化"></a>View优化</h6><ul>
+<li>优化view视图渲染时间</li>
+<li>若view视图比较复杂，可考虑使用ConstraintLayout约束布局，减少视图渲染的层级。</li>
+<li>合理使用<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/df8c1fca38bb">ViewStub</a></li>
+<li>recyclerview列表控件优化:<ul>
+<li>item 的view视图优化，同第4点。</li>
+<li>增加recyclerview的item缓存数量，将网络请求的数据缓存，避免二次请求网络。</li>
+<li>在onBindViewHolder避免执行耗时操作，因为onBindViewHolder是在主线程执行，onBindViewHolder加耗时操作会影响滑动流畅度。</li>
+<li>recyclerview刷新时尽量使用局部刷新，避免全局刷新。</li>
+</ul>
+</li>
+</ul>
+<h3 id="启动速度"><a href="#启动速度" class="headerlink" title="启动速度"></a><a target="_blank" rel="noopener" href="https://developer.android.google.cn/topic/performance/vitals/launch-time?hl=zh-cn">启动速度</a></h3><p>每个应用有三种启动状态，每种状态都会影响应用向用户显示所需的时间：冷启动、温启动或热启动。在冷启动中，应用从头开始启动。在另外两种状态中，系统需要将后台运行的应用带入前台。建议您始终在假定冷启动的基础上进行优化。这样做也可以提升温启动和热启动的性能。<br><img src="https://developer.android.google.cn/static/topic/performance/vitals/images/startup-modes-r1.png?hl=zh-cn" alt="1669702132862.jpg"></p>
+<h6 id="冷启动"><a href="#冷启动" class="headerlink" title="冷启动"></a>冷启动</h6><p>1.加载并启动应用。<br>2.在启动后立即显示应用的空白启动窗口。<br>3.创建应用进程。<br>系统一创建应用进程，应用进程就负责后续阶段：<br>1.创建应用对象。<br>2.启动主线程。<br>3.创建主 activity。<br>4.扩充视图。<br>5.布局屏幕。<br>6.执行初始绘制。  </p>
+<p>冷启动是指应用从头开始启动：系统进程在冷启动后才创建应用进程。发生冷启动的情况包括应用自设备启动后或系统终止应用后首次启动。这种启动给最大限度地减少启动时间带来了最大的挑战，因为系统和应用要做的工作比在另外两种启动状态中更多。</p>
+<h6 id="温启动-系统杀死后重启"><a href="#温启动-系统杀死后重启" class="headerlink" title="温启动(系统杀死后重启)"></a>温启动(系统杀死后重启)</h6><p>温启动包含了在冷启动期间发生的部分操作；同时，它的开销要比热启动高。有许多潜在状态可视为温启动。例如：</p>
+<ul>
+<li>用户在退出应用后又重新启动应用。进程可能已继续运行，但应用必须通过调用 onCreate() 从头开始重新创建 activity。</li>
+<li>系统将您的应用从内存中逐出，然后用户又重新启动它。进程和 activity 需要重启，但传递到 onCreate() 的已保存的实例 state bundle 对于完成此任务有一定助益。</li>
+</ul>
+<h6 id="热启动"><a href="#热启动" class="headerlink" title="热启动"></a>热启动</h6><p>应用的热启动比冷启动简单得多，开销也更低。在热启动中，系统的所有工作就是将您的 activity 带到前台。只要应用的所有 activity 仍驻留在内存中，应用就不必重复执行对象初始化、布局膨胀和呈现。<br>但是，如果一些内存为响应内存整理事件（如 onTrimMemory()）而被完全清除，则需要为了响应热启动事件而重新创建相应的对象。<br>热启动显示的屏幕上行为和冷启动场景相同：<br>在应用完成 activity 呈现之前，系统进程将显示空白屏幕。</p>
+<h6 id="初步显示所用时间"><a href="#初步显示所用时间" class="headerlink" title="初步显示所用时间"></a>初步显示所用时间</h6><p>初步显示所用时间 (TTID) 指标用于测量应用生成第一帧所用的时间，包括进程初始化（如果是冷启动）、activity 创建（如果是冷启动&#x2F;温启动）以及显示第一帧。  </p>
+<p>在 Android 4.4（API 级别 19）及更高版本中，logcat 包含一个输出行，该行包含名为 Displayed 的值。此值代表从启动进程到在屏幕上完成对应 activity 的绘制所用的时间。经过的时间包括以下事件序列：</p>
+<ul>
+<li>启动进程。</li>
+<li>初始化对象。</li>
+<li>创建并初始化 activity。</li>
+<li>扩充布局。</li>
+<li>首次绘制应用。<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ActivityManager: Displayed com.android.myexample/.StartupTiming: +3s534ms</span><br></pre></td></tr></table></figure>
+也可以通过adb命令检测，这里就不细说了</li>
+</ul>
+<h6 id="完全显示所用时间"><a href="#完全显示所用时间" class="headerlink" title="完全显示所用时间"></a>完全显示所用时间</h6><p>完全显示所用时间 (TTFD) 指标用于测量应用生成具有完整内容的第一帧所用的时间，包括在第一帧之后异步加载的内容。一般情况下，这是从网络加载的主要列表内容（由应用报告）。</p>
+<p>您可以使用 reportFullyDrawn() 方法测量从应用启动到完全显示所有资源和视图层次结构所用的时间。在应用执行延迟加载时，此数据会很有用。在延迟加载中，应用不会阻止窗口的初步绘制，但会异步加载资源并更新视图层次结构。</p>
+<h6 id="自定义启动页"><a href="#自定义启动页" class="headerlink" title="自定义启动页"></a>自定义启动页</h6><p>如果您之前曾在 Android 11（API 级别 30）或更低版本中使用以下某种方法来实现自定义启动画面，则可能会增加额外的启动时间：</p>
+<ul>
+<li>使用 windowDisablePreview 主题属性关闭系统在启动过程中绘制的初始空白屏幕。</li>
+<li>使用专用 activity。</li>
+</ul>
+<p>从 <a target="_blank" rel="noopener" href="https://developer.android.google.cn/guide/topics/ui/splash-screen/migrate?hl=zh-cn">Android 12</a> 开始，必须迁移到 SplashScreen API。此 API 可以缩短启动时间，并允许您通过以下方式调整启动画面：  </p>
+<ul>
+<li>设置主题以更改启动画面的外观</li>
+<li>控制启动画面的显示时长</li>
+<li>确定启动画面动画需要多长的额外时间，并合理处理动画以关闭启动画面</li>
+</ul>
+<h3 id="耗电量"><a href="#耗电量" class="headerlink" title="耗电量"></a>耗电量</h3><ul>
+<li>减少后台常驻服务，及时关闭， 减少清单文件里的隐式广播，因为隐式广播会在后台频繁启动已注册侦听这些广播的应用</li>
+<li>避免频繁进行网络请求。</li>
+<li>使用避免任务被频繁执行，可以等任务形成一定数量时，再一起执行。</li>
+<li>避免应用频繁唤醒屏幕。（频繁唤醒屏幕会导致系统无法进入休眠，耗电量大）</li>
+</ul>
+<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://developer.android.google.cn/training/monitoring-device-state/doze-standby?hl=zh-cn">Android性能优化建议</a></li>
+<li><a target="_blank" rel="noopener" href="https://developer.android.google.cn/studio/command-line/adb?hl=zh-cn#howadbworks">Android 调试桥 (adb)</a></li>
+</ul>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>Gx</span>
+                    </p>
+                
+                
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"># 性能优化</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+            
+            <a class="next" rel="next" href="/2022/06/03/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-%E7%A9%BA%E9%97%B4/">性能优化-空间</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+            </div>
+            <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© Gx | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+
+</html>
