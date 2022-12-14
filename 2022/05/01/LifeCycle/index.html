@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Gx">
+
+
+
+    <meta name="description" content="description">
+
+
+
+<title>LifeCycle | Nine`s Blog</title>
+
+
+
+    <link rel="icon" href="/image/luancher.jpg">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 6.0.0"></head>
+
+<body>
+    <script>
+        // this function is used to check current theme before page loaded.
+        (() => {
+            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
+            const isDark = currentTheme === 'dark';
+            const pagebody = document.getElementsByTagName('body')[0]
+            if (isDark) {
+                pagebody.classList.add('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            } else {
+                pagebody.classList.remove('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Light"
+            }
+        })();
+    </script>
+
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Nine&#39;s Blog</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">博客</a>
+                
+                    <a class="menu-item" href="/category">分类</a>
+                
+                    <a class="menu-item" href="/tag">标签</a>
+                
+                    <a class="menu-item" href="/about">关于</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Nine&#39;s Blog</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">博客</a>
+                
+                    <a class="menu-item" href="/category">分类</a>
+                
+                    <a class="menu-item" href="/tag">标签</a>
+                
+                    <a class="menu-item" href="/about">关于</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+            <div class="main">
+                <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">LifeCycle</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">Gx</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">May 1, 2022&nbsp;&nbsp;16:05:41</a>
+                        </span>
+                    
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/JetPack/">JetPack</a>
+                            
+                        </span>
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h3 id="什么是LifeCycle"><a href="#什么是LifeCycle" class="headerlink" title="什么是LifeCycle"></a>什么是LifeCycle</h3><h6 id="官方介绍"><a href="#官方介绍" class="headerlink" title="官方介绍"></a>官方介绍</h6><p>生命周期感知型组件可执行操作来响应另一个组件（如 Activity 和 Fragment）的生命周期状态的变化。这些组件有助于您编写出更有条理且往往更精简的代码，此类代码更易于维护。</p>
+<p>一种常见的模式是在 activity 和 fragment 的生命周期方法中实现依赖组件的操作。但是，这种模式会导致代码条理性很差而且会扩散错误。通过使用生命周期感知型组件，您可以将依赖组件的代码从生命周期方法移入组件本身中。</p>
+<p>androidx.lifecycle 软件包提供了可用于构建生命周期感知型组件的类和接口 - 这些组件可以根据 activity 或 fragment 的当前生命周期状态自动调整其行为。</p>
+<h6 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h6><p> Lifecycle 是一个类，用于存储有关组件（如 activity 或 fragment）的生命周期状态的信息，并允许其他对象观察此状态。</p>
+<p> 其最终目的就是将四大组件得状态，转发给不同得<code>LifecycleObserver</code>实现类，通过注解   <code>@OnLifecycleEvent(Lifecycle.Event.ON_CREATE)</code></p>
+<h3 id="基础使用"><a href="#基础使用" class="headerlink" title="基础使用"></a>基础使用</h3><p> 在日常使用自定义View的时候，都会引用外部Activity得上下文对象，如果在View中，通过context 进行一些耗时操作，那么页面销毁的时候，也应该中断操作销毁对象，否则继续持用activity的引用造成内存泄露。</p>
+<h6 id="LifecycleObserver-自定义"><a href="#LifecycleObserver-自定义" class="headerlink" title="LifecycleObserver(自定义)"></a>LifecycleObserver(自定义)</h6> <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">MyChronometer</span> : Chronometer, LifecycleObserver &#123;</span><br><span class="line">    constructor(context: Context, attributeSet: AttributeSet) : <span class="built_in">super</span>(context, attributeSet)</span><br><span class="line">    <span class="keyword">var</span> elapsedTime: Long = <span class="number">0</span></span><br><span class="line">    <span class="comment">//计时开始 ,方法添加了注解</span></span><br><span class="line">    <span class="meta">@OnLifecycleEvent(Lifecycle.Event.ON_RESUME)</span></span><br><span class="line">    open fun <span class="title function_">startMeter</span><span class="params">()</span> &#123;</span><br><span class="line">        base = SystemClock.elapsedRealtime() - elapsedTime</span><br><span class="line">        <span class="title function_">start</span><span class="params">()</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//计时暂停 ,方法添加了注解</span></span><br><span class="line">    <span class="meta">@OnLifecycleEvent(Lifecycle.Event.ON_PAUSE)</span></span><br><span class="line">    open fun <span class="title function_">stopMeter</span><span class="params">()</span> &#123;</span><br><span class="line">        elapsedTime = SystemClock.elapsedRealtime() - base</span><br><span class="line">        <span class="title function_">stop</span><span class="params">()</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h6 id="调用"><a href="#调用" class="headerlink" title="调用"></a>调用</h6> <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">XXXX</span> : AppCompatActivity() &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">var</span> chronometer: MyChronometer? = <span class="literal">null</span></span><br><span class="line">    override fun <span class="title function_">onCreate</span><span class="params">(savedInstanceState: Bundle?)</span> &#123;</span><br><span class="line">        <span class="built_in">super</span>.onCreate(savedInstanceState)</span><br><span class="line">        <span class="comment">//...</span></span><br><span class="line">        <span class="comment">//组件</span></span><br><span class="line">        chronometer = findViewById(R.id.chronometer)</span><br><span class="line">        <span class="comment">//添加观察者</span></span><br><span class="line">        lifecycle.addObserver(chronometer!!)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这时候，当Activity <code>ON_RESUME</code> 方法被触发的时候，就会调用addObserver所观察得接口中， 被<code>@OnLifecycleEvent(Lifecycle.Event.ON_RESUME)</code>注解修饰的方法，从而同步生命周期。</p>
+<h6 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h6><ul>
+<li>1.一个Activity 可以注册多个<code>LifecycleObserver</code>接口</li>
+</ul>
+<h3 id="进阶使用"><a href="#进阶使用" class="headerlink" title="进阶使用"></a>进阶使用</h3><h6 id="DefaultLifecycleObserver"><a href="#DefaultLifecycleObserver" class="headerlink" title="DefaultLifecycleObserver"></a>DefaultLifecycleObserver</h6><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//在Java8以后，interface接口类型，可以有自己的默认实现。</span></span><br><span class="line">implementation <span class="string">&quot;androidx.lifecycle:lifecycle-common-java8:2.2.0&quot;</span></span><br></pre></td></tr></table></figure>
+<p>默认实现了<code>LifecycleObserver</code>接口，里面已经帮我们处理了 七种生命周期。</p>
+<h6 id="LifecycleOwner-自定义宿主-基本为四大组件"><a href="#LifecycleOwner-自定义宿主-基本为四大组件" class="headerlink" title="LifecycleOwner(自定义宿主-基本为四大组件)"></a>LifecycleOwner(自定义宿主-基本为四大组件)</h6><p>支持库 26.1.0 及更高版本中的 Fragment 和 Activity 已实现 LifecycleOwner 接口。<br>如果您有一个自定义类并希望使其成为 LifecycleOwner，您可以使用 LifecycleRegistry 类，但需要将事件转发到该类，如以下代码示例中所示：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">MyActivity</span> : Activity(), LifecycleOwner &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> lateinit <span class="keyword">var</span> lifecycleRegistry: LifecycleRegistry</span><br><span class="line"></span><br><span class="line">    override fun <span class="title function_">onCreate</span><span class="params">(savedInstanceState: Bundle?)</span> &#123;</span><br><span class="line">        <span class="built_in">super</span>.onCreate(savedInstanceState)</span><br><span class="line"></span><br><span class="line">        lifecycleRegistry = LifecycleRegistry(<span class="built_in">this</span>)</span><br><span class="line">        lifecycleRegistry.markState(Lifecycle.State.CREATED)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> override fun <span class="title function_">onStart</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="built_in">super</span>.onStart()</span><br><span class="line">        lifecycleRegistry.markState(Lifecycle.State.STARTED)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    override fun <span class="title function_">getLifecycle</span><span class="params">()</span>: Lifecycle &#123;</span><br><span class="line">        <span class="keyword">return</span> lifecycleRegistry</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><h6 id="即使在OnResume-中进行监听，仍然会处罚OnCreate方法-为什么"><a href="#即使在OnResume-中进行监听，仍然会处罚OnCreate方法-为什么" class="headerlink" title="即使在OnResume 中进行监听，仍然会处罚OnCreate方法,为什么"></a>即使在OnResume 中进行监听，仍然会处罚OnCreate方法,为什么</h6><p>我们要先搞懂什么是状态State和事件Event。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Event事件对应的就是Activty的onCreate,onStart()事件</span></span><br><span class="line"><span class="comment">// State 而状态却只有5种。以STARTED状态为例，这个状态发生在Activity#onStart()之后，Activity#onPause()之前。</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">enum</span> <span class="title class_">Event</span> &#123;</span><br><span class="line">        ON_CREATE,</span><br><span class="line">        ON_START,</span><br><span class="line">        ON_RESUME,</span><br><span class="line">        ON_PAUSE,</span><br><span class="line">        ON_STOP,</span><br><span class="line">        ON_DESTROY,</span><br><span class="line">        ON_ANY</span><br><span class="line">    &#125;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">enum</span> <span class="title class_">State</span> &#123;</span><br><span class="line">        DESTROYED,</span><br><span class="line">        INITIALIZED,</span><br><span class="line">        CREATED,</span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         *     &lt;li&gt;after &#123;<span class="doctag">@link</span> android.app.Activity#onStart() onStart&#125; call;</span></span><br><span class="line"><span class="comment">         *     &lt;li&gt;&lt;b&gt;right before&lt;/b&gt; &#123;<span class="doctag">@link</span> android.app..Activity#onPause( onPause&#125; call.</span></span><br><span class="line"><span class="comment">         * &lt;/ul&gt;</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line">        STARTED,</span><br><span class="line">        RESUMED;</span><br><span class="line">        <span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">isAtLeast</span><span class="params">(<span class="meta">@NonNull</span> State state)</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> compareTo(state) &gt;= <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>在<code>LifecycleRegistry</code>源码中，并不是依靠Event得值进行直接回调，而是会将Event结合State 进行二次处理，保证后面注册，也能收到之前得状态。</p>
+<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/c10WTiybQ1Ye3/article/details/125307587">源码详解</a></li>
+</ul>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>Gx</span>
+                    </p>
+                
+                
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/JetPack%E5%AD%A6%E4%B9%A0/"># JetPack学习</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2022/05/01/RecyclerView_%E7%BC%93%E5%AD%98%E6%9C%BA%E5%88%B6Recycler/">RecyclerView_缓存机制Recycler</a>
+            
+            
+            <a class="next" rel="next" href="/2022/03/05/WorkManager/">WorkManager</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+            </div>
+            <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© Gx | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+
+</html>
